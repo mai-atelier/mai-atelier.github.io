@@ -24,7 +24,6 @@ main {
 }
 
 ul a:hover{
-    padding: 0.5em;
     color: #9B8816;
 }
 
@@ -40,6 +39,7 @@ ul {
 }
 
 ul a {
+    padding-bottom: 0.5em;
     color: #2E242D;
 }
 
