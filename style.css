@@ -19,11 +19,12 @@ main a:hover{
 
 main img{
     max-width: 100%;
-    margin-right:0px;
+    margin-right:0;
 }
 .contents{
     border : 2px ;
 }
+
 footer {
     background-color: #EAD8D7;
     text-align: center;
