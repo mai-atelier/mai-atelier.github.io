@@ -1,30 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,500&family=Work+Sans:ital,wght@0,400;1,300;1,400&display=swap');
-
-h2,body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,500&family=Noto+Serif+SC:wght@500;600;700&display=swap');
+h2 {
     color: #2E242D;
-    margin: 0;
+    font-family:"Noto Serif SC";
 }
 
 header {
-    color : white;
-    background-color:#B38D97;
-    padding: 1em;
-    font-style: italy;
+    background-color:#AD858F;
+    padding: 1em 2em;
 }
+
+h1 {
+    font-family:"Noto Serif SC";
+    color : white;
+}
+
 body { 
     font-family: Montserrat;
+    color: #2E242D;
 }
 
 main {
-    padding: 1em;
+    padding: 2em;
 }
 
-main a:hover{
-        color:#B4A82D;
+ul a:hover{
+    padding: 0.5em;
+    color: #9B8816;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
 }
 
 ul {
-    padding: 0;
+    padding-left: 0;
+    margin: 0;
 }
 
 ul a {
@@ -38,28 +50,22 @@ ul li {
  }
 
 h3{
-    color:#B38D97;
+    color:#AD858F;
     margin: 0;
 }
 
 .self-portrait img{
-    width: 250px;
-    border-radius: 10px;
+    max-width: 100%;
+    grid-column: -1;
 }
 
 footer {
-    background-color: #EAD8D7;
+    background-color: #FCF1ED;
     padding: 0.5em;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.info {
-    grid-column: 2/3;
 }
 
 footer p {
-     margin: 0;
      font-size: 0.8em;
      text-align:left;
+     margin: auto 0;
  }
