@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,500&family=Work+Sans:ital,wght@0,400;1,300;1,400&display=swap');
 
- h2,body {
+h2,body {
     color: #2E242D;
     margin: 0;
 }
@@ -23,17 +23,21 @@ main a:hover{
         color:#B4A82D;
 }
 
- ul li {
+ul {
+    padding: 0;
+}
+
+ul a {
+    color: #2E242D;
+}
+
+ul li {
     list-style: none;
     margin: 1em;
     color: #2E242D;
  }
 
- ul {
- padding: 0;
-}
-
-    h3{
+h3{
     color:#B38D97;
     margin: 0;
 }
@@ -54,7 +58,7 @@ footer {
     grid-column: 2/3;
 }
 
- footer p {
+footer p {
      margin: 0;
      font-size: 0.8em;
      text-align:left;
