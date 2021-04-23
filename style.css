@@ -40,6 +40,7 @@ main a:hover{
 
 .self-portrait img{
     max-width: 100%;
+    border-radius: 10px;
 }
 
 footer {
