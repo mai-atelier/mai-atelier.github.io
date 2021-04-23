@@ -1,9 +1,37 @@
 <!doctype html>
 <html lang="en-us">
 <head>
-  <title>Your Name</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Mai Manago">
+  <meta name="description" content="Assignment portal for WDD230 class by Mai Manago. Applied to Technology Major at Brigham Young University of Idaho">
+  <title>Mai Manago Portal|Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <h1>Your Name</h1>
+  <header>
+ <h1>Mai Manago</h1>
+  </header>
+<main>
+ <h2>WDD230: Assignment Portal </h2>
+ <div class="contents">
+ <li>Lesson 02:
+   <a href="index.html">Assignment Link</a></li>
+ <li>Lesson 03:
+   <a href="index.html">Assignment Link</a></li>
+   <li>Lesson 04:
+    <a href="index.html">Link </a>| <a href="index.html">Link</a></li>
+    <img src="https://cdn.glitch.com/f662e0ab-1cbf-4291-8f0b-f5ba291a6804%2FF7CC5ACC-0DA0-45E1-8E48-6B17A41344E2.jpeg?v=1610260520489" alt="Mai Manago">
+  </div>
+  </main>
+  
+<footer>
+<p>&copy;&nbsp;<a id="year"></a>|Mai Manago|Japan|<a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+<p>Last Updated: <a id="update"></a></p>
+<script>
+    document.getElementById('year').innerHTML = new Date().getFullYear();
+    document.getElementById('update').innerHTML =  document.lastModified;
+</script>
+</footer>
 </body>
 </html>  
