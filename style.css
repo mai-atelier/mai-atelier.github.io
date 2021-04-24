@@ -32,6 +32,7 @@ h2 {
     color: #171217;
     margin-bottom: 0;
     padding-left: 0.5em;
+    border-bottom: solid 0.8px  #171217;
 }
   
 ul a:hover{
@@ -50,10 +51,10 @@ ul a {
 
 ul li {
     list-style: none;
-    margin: 1em;
+    margin: 2em;
  }
 
-h3{
+h3,b {
     color: #807800;
     margin: 0;
 }
@@ -69,7 +70,7 @@ img{
 footer {
     display: grid;
     background: #FCF1ED;
-    padding: 0.5em;
+    padding: 2em;
     margin: 0;
     border-radius: 10px;
     text-align: center;
