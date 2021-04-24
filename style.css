@@ -1,80 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,500&family=Noto+Serif+SC:wght@500;600;700&display=swap');
-h2 {
-    color: #2E242D;
-    font-family:"Noto Serif SC";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,500&family=Noto+Serif+SC:wght@500;600;700&display=swap');  
+
+#content {
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 header {
-    background-color:#AD858F;
-    padding: 1em 2em;
+    background: #99687c ;
+    padding: 1em;
+    margin: 0 auto; 
+    border-radius: 10px;
 }
 
 h1 {
     font-family:"Noto Serif SC";
     color : white;
+    text-align: center;
 }
 
 body { 
     font-family: Montserrat;
-    color: #2E242D;
+    color: #171217;
 }
 
 main {
-    padding: 2em;
+    padding:0 2em 6em 2em;
 }
 
+h2 {
+    font-family:"Noto Serif SC";
+    color: #171217;
+    margin-bottom: 0;
+    padding-left: 0.5em;
+}
+  
 ul a:hover{
-    color: #9B8816;
-}
-
-.content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2em;
+    color:#99687c;
 }
 
 ul {
-    padding-left: 0;
-    margin: 0;
+    display:inline-block;
+    padding: 0;
 }
 
 ul a {
-    padding-bottom: 0.5em;
-    color: #2E242D;
+    padding-bottom: 1em;
+    color: #171217;
 }
 
 ul li {
     list-style: none;
     margin: 1em;
-    color: #2E242D;
  }
 
 h3{
-    color:#AD858F;
+    color: #807800;
     margin: 0;
 }
 
-.self-portrait img{
+img{
+    display: block;
     max-width: 100%;
-    grid-column: -1;
+    float: right;
+    border-radius: 10px;
+    box-shadow: 0 2px 24px 0 rgba(104, 106, 121, 0.38);
 }
 
 footer {
-    background-color: #FCF1ED;
+    display: grid;
+    background: #FCF1ED;
     padding: 0.5em;
+    margin: 0;
+    border-radius: 10px;
+    text-align: center;
 }
 
 footer p {
      font-size: 0.8em;
-     
-     padding-left: 2em;
      margin: 0 auto;
+     justify-content: center;
+     justify-items: center;
+      color: #171217;
  }
 
- footer a{
-     color: #2E242D;
- }
-
- footer a:visited {
-color: #9B8816;
+footer a:visited {
+color: #99687c;
  }
