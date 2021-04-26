@@ -63,7 +63,6 @@ h3,b {
 img{
     display: block;
     max-width: 100%;
-    float: right;
     border-radius: 10px;
     box-shadow: 0 2px 24px 0 rgba(104, 106, 121, 0.38);
 }
