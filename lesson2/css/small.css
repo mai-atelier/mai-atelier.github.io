@@ -21,19 +21,22 @@ body {
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 0.5em;
+    grid-gap: 1em;
+    padding: 1em;
 }
 
 h3 {
     background: #FCF1ED;
     padding: 0.8em;
     margin: 0;
+    border-bottom: solid 1px #e2d8d5;
+    border-radius:10px 10px 0 0;
 }
 
 section {
     background:#fefdfd;
-    border: solid 1px #fefdfd;
-    border-radius: 10px;
+    border: solid 1px #e2d8d5;
+    border-radius:10px;
 }
 
 section a {
@@ -47,6 +50,13 @@ section a:hover{
 section a,p {
     padding:0.5em 1em;
     line-height: 1.2em;
+    margin: auto 0;
+}
+
+img {
+    max-width: 300px;
+    padding: 1em 0;
+    margin: auto 0;
 }
 footer {
     display: grid;
