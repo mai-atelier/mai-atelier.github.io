@@ -1,0 +1,145 @@
+header {
+    background: #9CBDAC;
+    text-align: center;
+    margin: 0;
+    padding: 2em;
+}
+
+body { 
+    font-family: "Work Sans", Karla, sans-serif;
+    color: #1A001F;
+    background: #f4f2f7;
+}
+
+header h1 {
+    font-family:Poppins, Verdana, sans-serif;
+    text-align: center;
+    color : white;
+    padding: 0.5em;
+    margin: 0; 
+}
+
+main h2 {
+    font-family:Poppins, Verdana, sans-serif;
+    color: #1A001F;
+}
+
+main h3, h4 {
+    color: #527A65;
+    text-decoration: none;
+    text-align: left;
+    padding: 0.75em;
+    margin: 0;
+}
+
+main ul li h3, h4 {
+    font-family:Poppins, Verdana, sans-serif;
+    color: #527A65;
+}
+
+header p{
+    color : white;
+    margin: 0;
+}
+
+nav {
+    background:  #9CBDAC;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0 auto;
+    padding:0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li a{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.75em;
+    color: #171217;
+}
+
+nav a:hover {
+	background-color: white;
+    color: #527A65;
+}
+
+
+main p{
+    padding-left: 1em;
+    margin: 0;
+}
+
+.img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box img {
+    max-width: 100%;
+    padding: 1em 0;
+    margin: 0 auto;
+}
+
+main ul {
+    margin: 0 auto;
+    padding:0;
+    list-style-type: none;
+}
+
+
+.scenario {
+    padding: 3em;
+}
+
+.scenario p{
+    padding: 0.75em;
+}
+
+section h1,h2,h3 {
+    font-family:Poppins, Verdana, sans-serif;
+    color:#527A65;
+    text-align: center;
+}
+
+section p {
+    text-align: center;
+}
+
+.heading {
+    padding-top : 2em;
+    padding-bottom : 1em;
+}
+
+.colors img {
+    max-width: 40%;
+}
+footer {
+    display: grid;
+    background: #9CBDAC;
+    color : white;
+    padding: 0.5em;
+    margin: 0;
+    text-align: center;
+}
+
+footer p {
+     font-size: 0.8em;
+     margin: 0 auto;
+     justify-content: center;
+     justify-items: center;
+ }
+
+ footer a {
+    color: white;
+    text-decoration: none;
+}
+ 
+ footer a:visited {
+    color: white;
+}

@@ -1,0 +1,20 @@
+@media only screen and (min-width: 32.5em){
+    .logo-box {
+        float: left;
+    }
+    
+    nav {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav ul {
+        display: flex;
+    }
+
+    main {
+        padding: 2em;
+    }
+} 
