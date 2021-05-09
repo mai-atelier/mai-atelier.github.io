@@ -68,6 +68,9 @@ nav a:hover {
     color: #527A65;
 }
 
+main,aside {
+    background: white;
+}
 
 main p{
     padding-left: 1em;
