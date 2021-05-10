@@ -5,9 +5,12 @@ header {
     padding: 2em;
 }
 
-body { 
+p { 
     font-family: "Work Sans", Karla, sans-serif;
     color: #1A001F;
+}
+
+body {
     background: #f4f2f7;
 }
 
@@ -104,6 +107,20 @@ main ul {
     padding: 0.75em;
 }
 
+.typography {
+font-family:Poppins, Verdana, sans-serif;
+background: white;
+color: #171217;
+margin: 0;
+padding:  1em;
+}
+
+section {
+     background: white;
+     padding: 1em;
+     margin: 0;
+ }
+
 section h1,h2,h3 {
     font-family:Poppins, Verdana, sans-serif;
     color:#527A65;
@@ -117,6 +134,7 @@ section p {
 .heading {
     padding-top : 2em;
     padding-bottom : 1em;
+    text-align: left;
 }
 
 .colors img {
@@ -139,7 +157,7 @@ footer p {
  }
 
  footer a {
-    color: white;
+     color:#1A001F;
     text-decoration: none;
 }
  
