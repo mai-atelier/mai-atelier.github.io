@@ -2,7 +2,7 @@
     main {
         padding: 2em;
     }
-    
+
     #persona {
         display: grid;
         grid-template-columns: 1fr 1fr ;  
@@ -12,10 +12,9 @@
     .persona-1 {
         grid-column: 1/2;
     }
-
+   
     .listbox-1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr ;  
+        display: flex;
     }
     
     .persona-2 {
@@ -23,26 +22,7 @@
     }
 
     .listbox-2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr ;  
-    }
-
-    .list-1 {
-        grid-column: 1/2;
-       
-    }
-    
-    .list-2 {
-        grid-column: 2/3;
-    }
-    
-    .list-3 {
-        grid-column: 1/2;
-       
-    }
-    
-    .list-4 {
-        grid-column: 2/3;
+        display: flex;
     }
     
 }

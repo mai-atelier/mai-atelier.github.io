@@ -12,6 +12,7 @@
     
     nav ul {
         display: flex;
+        flex: 1;
     }
 
     main {

@@ -1,0 +1,28 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+    .logo-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hide {
+        display: flex;
+        margin-left: 2%;
+    }
+
+    .hide li{
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .hide li a {
+        text-align: center;
+        border: none;
+        padding: .8em 1em;
+    }
+
+    .toggle {
+        display: none;
+    }
+} /*end medium */
