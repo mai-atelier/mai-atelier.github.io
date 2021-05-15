@@ -82,6 +82,7 @@ nav {
     
 .responsive li {
         display: block;
+        font-family:Poppins, Verdana, sans-serif;
     }
 
 nav ul li.active {
@@ -100,7 +101,7 @@ nav ul li.active {
 footer p,span {
     font-family: "Work Sans", Karla, sans-serif;
     color: white;
-    font-size: 0.8em;
+   
 }
 
 footer a:visited {
@@ -140,5 +141,6 @@ footer a:visited {
     display:flex;
     justify-content: center;
     align-items: center;
+    font-size: 0.8em;
 }
 
