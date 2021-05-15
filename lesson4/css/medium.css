@@ -39,7 +39,22 @@
         display: none;
     }
 
-    .responsive li :hover{
+    .contact-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 2em;
+    }
+
+    .map-box {
+        grid-column: 1/2;
+        grid-row: 1;
+        justify-content: center;
+    }
+
+    .contact {
+        grid-column: 2/3;
+        grid-row: 1;
     }
 
 

@@ -1,8 +1,8 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
     body {
+        max-width: 1080px;
         margin: 0 auto;
-        max-width: 960px;
         padding: 0;
     }
 

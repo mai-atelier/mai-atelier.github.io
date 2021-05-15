@@ -1,4 +1,4 @@
-header, main {
+header {
     padding: 1.75em 0;
 }
 
@@ -22,6 +22,7 @@ p {
 
 body, header{
     background:#fdf7f2;
+    margin: 0 auto;
 }
 
 footer {
@@ -31,8 +32,9 @@ footer {
 
 main {
     background: #ffffff;
-    padding: 3em;
+    padding: 1.75em;
 }
+
 main h3{
     color:#3e3e3e;
 }
@@ -91,14 +93,52 @@ nav ul li.active {
     padding: 0.75em;
 }
 
-footer {
+ footer {
     padding:0.75em 3em;
-}
+ }
 
-footer p {
+footer p,span {
+    font-family: "Work Sans", Karla, sans-serif;
     color: white;
     font-size: 0.8em;
 }
+
 footer a:visited {
     color: #bbd4d4;
 }
+
+.map-box {
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+
+.contact {
+ display:flex;
+ justify-content: left;
+ align-items: center;
+}
+
+.contact img {
+    width: 44px;
+    height: 44px;
+}
+
+.info {
+ display:flex;
+ justify-content: left;
+ align-items: center;
+}
+
+.social {
+    padding: 0.75em;
+    display: flex;
+    justify-content:space-between;
+}
+
+.bar {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
