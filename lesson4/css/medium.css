@@ -5,15 +5,28 @@
         justify-content: center;
         align-items: center;
     }
-    
+
+    header img {
+		max-width: 100%;
+    }
+
+    nav {
+        padding: 0;
+    }
+
     .hide {
         display: flex;
-        margin-left: 2%;
+        justify-content: center;
+        align-items: center;
     }
 
     .hide li{
         display: block;
         flex: 1 1 auto;
+    }
+
+    .hide li:first-child{
+        display: none;
     }
 
     .hide li a {
@@ -25,4 +38,9 @@
     .toggle {
         display: none;
     }
+
+    .responsive li :hover{
+    }
+
+
 } /*end medium */

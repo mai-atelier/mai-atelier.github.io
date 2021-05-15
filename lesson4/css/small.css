@@ -1,29 +1,50 @@
-
-
-img {
-    display: block;
-    padding: 0;
+header, main {
+    padding: 1.75em 0;
 }
 
-h1 {
+.logo-box img {
+    padding: 0;
+    float: left;
+}
+
+header h1,p{
     text-align: center;
 }
 
-body, header, footer {
+h1, h2, h3 {
+    font-family:Poppins, Verdana, sans-serif;
+}
+
+p { 
+    font-family: "Work Sans", Karla, sans-serif;
+    color: #3e3e3e;
+}
+
+body, header{
     background:#fdf7f2;
 }
 
-main {
-    background: white;
+footer {
+   color: white;
+   background: #3e3e3e;
 }
-main h2, h3{
-    color: #061828;
+
+main {
+    background: #ffffff;
+    padding: 3em;
+}
+main h3{
+    color:#3e3e3e;
+}
+
+h2 {
+    color:#3e3e3e;
 }
 
 nav {
-    background: 
-    #f5EDE9;
-    padding: 0.8em 2%;
+        padding: 0.8em 2%;
+        display: fixed;
+        background:#bbd4d4;
 }
 
 .hide {
@@ -35,6 +56,7 @@ nav {
 .hide li:first-child{
     margin: 0 2%;
     display: block; 
+    padding:2% 0;
 }
 
 .hide li {
@@ -44,18 +66,39 @@ nav {
 .hide a{
     padding: 0.8em 2%;
     text-decoration: none;
-    color:#4A433D;
+    color:#3e3e3e;
+   
     }
 
-.hide a:hover{
-        background:white;
+    .hide a:hover{
+        color: black;  
+    }
+
+.responsive li:hover:not(:first-child){
+        background:rgba(255,255,255,0.6);
     }
     
 .responsive li {
         display: block;
     }
 
-nav ul li.active a {
-    background: rgba(0,0,0,0.6);
+nav ul li.active {
+    background:#FFd700;
     color: white;
+}
+
+.responsive li+li {
+    padding: 0.75em;
+}
+
+footer {
+    padding:0.75em 3em;
+}
+
+footer p {
+    color: white;
+    font-size: 0.8em;
+}
+footer a:visited {
+    color: #bbd4d4;
 }

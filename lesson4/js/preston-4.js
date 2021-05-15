@@ -4,5 +4,6 @@ const menu = document.querySelector('.hide');
 
 drop.addEventListener('click', () => {menu.classList.toggle('responsive')}, false);
 
-document.getElementById('year').innerHTML = new Date().getFullYear();
-
+const now = new Date();
+document.getElementById('year').innerHTML = now.getFullYear();
+document.getElementById('date').innerHTML = new Intl.DateTimeFormat("en-US",{ dateStyle:"full"}).format(now);
