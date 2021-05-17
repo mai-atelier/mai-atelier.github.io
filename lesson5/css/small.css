@@ -11,13 +11,21 @@ header h1,p{
     text-align: center;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family:Poppins, Verdana, sans-serif;
+    margin: 0;
+    padding:0.5em 0;  
+}
+
+main h3 {
+    font-family:Poppins, Verdana, sans-serif;
+    padding: 2% 0;
 }
 
 p { 
     font-family: "Work Sans", Karla, sans-serif;
     color: #3e3e3e;
+    margin: 0;
 }
 
 body, header{
@@ -37,6 +45,7 @@ main {
 
 main h3{
     color:#3e3e3e;
+    margin: 0 1em;
 }
 
 h2 {
@@ -44,9 +53,10 @@ h2 {
 }
 
 nav {
-        padding: 0.8em 2%;
-        display: fixed;
-        background:#bbd4d4;
+    margin-top: 1.75em;
+    padding: 0.8em 2%;
+    display: fixed;
+    background:#bbd4d4;
 }
 
 .hide {
@@ -92,6 +102,41 @@ nav ul li.active {
 
 .responsive li+li {
     padding: 0.75em;
+}
+
+.report img{
+    max-width: 100%;
+}
+
+.overlay {
+    text-align: left;
+}
+
+.overlay ul {
+    list-style: none;
+}
+
+.fivedays {
+    background: rgba(187,212,212, 0.68);
+    border: solid 2px rgba(187,212,212);
+    border-radius: 6px;
+    padding-bottom: 2%;
+    margin: 2em 0;
+}
+
+
+
+.weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255,255,255,0.25);
+    box-shadow: 0 2px 8px 0 rgba( 187,212,212,0.8 );
+    margin: 0 2%;
+}
+
+.weather img{
+    max-width: 50px;
 }
 
  footer {
