@@ -2,7 +2,7 @@ const input = document.querySelector('.input');
 const add = document.querySelector('button');
 const myList = document.querySelector('.list');
 
-add.addEventListener('click', () => { 
+add.addEventListener(function(){ 
     if (input != ''){
     const item = document.createElement('li');
     item.textContent = input.value ;
@@ -13,11 +13,11 @@ add.addEventListener('click', () => {
     item.append(cancel);
     myList.append(item);	
 
-cancel.addEventListener('click', function() {
+cancel.addEventListener('click', function(e) {
     myList.removeChild(item)
 });
     }
-    
+
     let clean = input.value;
     input.value = '';
     input.focus();																																						
