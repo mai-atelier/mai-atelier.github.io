@@ -1,11 +1,13 @@
-var now = new Date();
-if (now.getDay() == 4){
-    document.querySelector('.nortification').innerHTML = '🥞🐶 Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.';
-    document.querySelector('.nortification').style.display = 'block';
+const now = new Date();
+if (now.getDay() == 5){
+    document.querySelector('.event').innerHTML = '🥞Saturday = Preston Pancakes in the Park!';  
+    document.querySelector('.event-info').innerHTML = '9:00 a.m. Saturday at the city park pavilion.';
+    document.querySelector('.event').style.display = 'block';
+    document.querySelector('.event-info').style.display = 'block';
 }
 
-var drop = document.querySelector('.toggle');
-var menu = document.querySelector('.hide');
+const drop = document.querySelector('.toggle');
+const menu = document.querySelector('.hide');
 
 drop.addEventListener('click', ()=> {menu.classList.toggle('responsive')}, false);
 

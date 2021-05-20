@@ -57,10 +57,16 @@
         padding: 0.8em 1em;
     }
 
-    .overlay h3,li {
+    .overlay h3 {
         color: #ffffff;
     }
 
+
+    .overlay ul li p{
+        color: #ffffff;
+        padding: 2% 1.25em;
+        }
+    
     .weather img{
         max-width: 100%;
     }

@@ -1,12 +1,12 @@
-header {
-    padding: 1.75em 0;
-}
 
 .logo-box img {
     padding: 0;
     float: left;
 }
 
+.brand {
+    padding: 1.75em 0.25em;
+}
 header h1,p{
     text-align: center;
 }
@@ -22,7 +22,10 @@ main h3 {
     padding: 2% 0;
 }
 
-p { 
+footer h3 {
+    font-family:Poppins, Verdana, sans-serif;
+}
+ p { 
     font-family: "Work Sans", Karla, sans-serif;
     color: #3e3e3e;
     margin: 0;
@@ -41,6 +44,25 @@ footer {
 main {
     background: #ffffff;
     padding: 1.75em;
+}
+
+.nortification {
+   text-align: left;
+    font-family: "Work Sans", Karla, sans-serif;
+    background:rgba(62,62,62);
+    padding: 0.5em 2%;
+    font-size: 0.8em;
+}
+.event-info {
+    color:#ffe981;
+}
+
+.event{
+    color: white; 
+}
+
+.nortification p+p {
+    padding: 0.25em 2%;
 }
 
 main h3{
@@ -106,7 +128,7 @@ nav ul li.active {
 }
 
 .report img{
-    max-width: 70%;
+    max-width: 100%;
 }
 
 .overlay {
@@ -121,8 +143,6 @@ nav ul li.active {
 
     .overlay ul li p{
     text-align: left;
-    color: white;
-    padding: 2% 1.25em;
     }
 
 .fivedays { 
@@ -136,8 +156,6 @@ nav ul li.active {
 
 .weather {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     background: rgba(255,255,255,0.25);
     box-shadow: 0 2px 8px 0 rgba( 187,212,212,0.8 );
     margin: 0 2%;
@@ -159,7 +177,7 @@ nav ul li.active {
         padding-top: 2%;
     }
     .weather img{
-        max-width: 40px;
+        max-width: 50px;
         display: block;
     }
 
