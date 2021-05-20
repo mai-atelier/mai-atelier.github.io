@@ -55,7 +55,6 @@ h2 {
 nav {
     margin-top: 1.75em;
     padding: 0.8em 2%;
-    display: fixed;
     background:#bbd4d4;
 }
 
@@ -117,17 +116,21 @@ nav ul li.active {
 }
 
 .fivedays {
-    background: rgba(187,212,212, 0.68);
-    border: solid 2px rgba(187,212,212);
+    background:
+    radial-gradient(at top left, #bbd4d4, transparent),
+    radial-gradient(at top right, #A7D3F2, transparent);
     border-radius: 6px;
     padding-bottom: 2%;
     margin: 2em 0;
 }
 
-
+.weather ul {
+    list-style-type: none;
+}
 
 .weather {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     background: rgba(255,255,255,0.25);
@@ -137,6 +140,10 @@ nav ul li.active {
 
 .weather img{
     max-width: 50px;
+}
+
+.weather li {
+    display: block;
 }
 
  footer {

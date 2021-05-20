@@ -43,10 +43,11 @@ h2 {
     color:#3e3e3e;
 }
 
+
 nav {
-        padding: 0.8em 2%;
-        display: fixed;
-        background:#bbd4d4;
+    padding: 0.8em 2%;
+    display: fixed;
+    background:#bbd4d4;
 }
 
 .hide {
