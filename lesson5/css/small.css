@@ -33,7 +33,6 @@ footer h3 {
 
 body, header{
     background:#fdf7f2;
-    margin: 0 auto;
 }
 
 footer {
@@ -47,29 +46,41 @@ main {
 }
 
 .nortification {
-   text-align: left;
     font-family: "Work Sans", Karla, sans-serif;
     background:rgba(62,62,62);
-    padding: 0.5em 2%;
+    padding: 0.75em 2%;
     font-size: 0.8em;
 }
+
+.event-box {
+    margin-right: auto;
+}
+
 .event-info {
+    text-align: left;
     color:#ffe981;
 }
 
-.event{
+.event-title {
+    text-align: left;
     color: white; 
 }
 
 .nortification p+p {
-    padding: 0.25em 2%;
+    padding: 0.25em 1.58%;
+}
+
+.nortification button {
+    font-family: "Work Sans", Karla, sans-serif;
+    border: none;
+    align-content: center;
 }
 
 main h3{
     color:#3e3e3e;
     margin: 0 1em;
 }
-.heading {
+.subject {
     margin-top: 2em;
 }
 
@@ -81,6 +92,7 @@ nav {
     margin-top: 1.75em;
     padding: 0.8em 2%;
     background:#bbd4d4;
+    text-align: center;
 }
 
 .hide {
@@ -172,6 +184,7 @@ nav ul li.active {
 
     .weather li {
         display: block;
+        font-family: "Work Sans", Karla, sans-serif;
         text-align: center;
         color:#3e3e3e;
         padding-top: 2%;
@@ -181,7 +194,11 @@ nav ul li.active {
         display: block;
     }
 
-    
+ .news a {
+    font-family: "Work Sans", Karla, sans-serif;
+    color:#3e3e3e;
+ }   
+
  footer {
     padding:0.75em 3em;
  }

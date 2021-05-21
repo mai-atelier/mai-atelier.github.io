@@ -30,11 +30,16 @@ button {
 label {
 	font-size: 0.8rem;
 }
+.listcontainer {
+	border: 1px solid #bbb;
+	margin: 1rem;
+	padding: 1rem;
+}
 
 .list {
-	margin: 1rem;
-	border: 1px solid #bbb;
+	margin: 0.2rem;
 }
+
 ul {
 	margin: 1rem;
 	list-style: none;

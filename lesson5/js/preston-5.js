@@ -1,9 +1,11 @@
 const now = new Date();
 if (now.getDay() == 5){
-    document.querySelector('.event').innerHTML = '🥞Saturday = Preston Pancakes in the Park!';  
-    document.querySelector('.event-info').innerHTML = '9:00 a.m. Saturday at the city park pavilion.';
-    document.querySelector('.event').style.display = 'block';
-    document.querySelector('.event-info').style.display = 'block';
+    let event = document.querySelector('.event-title');
+    let info =  document.querySelector('.event-info');
+    event.innerHTML = '🥞Saturday = Preston Pancakes in the Park!';  
+    info.innerHTML = '9:00 a.m. Saturday at the city park pavilion.';
+    event.style.display = 'block';
+    info.style.display = 'block';
 }
 
 const drop = document.querySelector('.toggle');
