@@ -11,12 +11,13 @@
         margin: 0 2%;
     }
 
+    .event-box {
+        padding: 0.38em 1.58%;
+        grid-column: 2/3;
+     }
+
     nav ul li a {
         padding: .6em 1em;
-    }
-
-    .event-box {
-        position: relative;
     }
    
 } /*end large */
