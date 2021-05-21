@@ -10,6 +10,10 @@
 		max-width: 100%;
     }
 
+    .nortification p {
+    padding: 0;
+    }
+
     nav {
         padding: 0;
     }
@@ -48,6 +52,9 @@
     }
 
     .overlay {
+        display:flex;
+        justify-content: center;
+        align-items: center;
         background: rgba(0,0,0,0.25);
         border: solid 1px rgba(255,255,255,0.18);
         border-radius: 6px;
@@ -61,12 +68,16 @@
         color: #ffffff;
     }
 
+    .overlay p{
+        color: white;
+    }
 
-    .overlay ul li p{
-        color: #ffffff;
+    .condition li p{
+        color: white;
         padding: 2% 1.25em;
+        font-size: 0.86em;
         }
-    
+
     .weather img{
         max-width: 100%;
     }
