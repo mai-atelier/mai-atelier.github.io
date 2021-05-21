@@ -345,6 +345,7 @@ nav ul li.active {
     justify-content: center;
     align-items: center;
     font-size: 0.8em;
+    padding-top: .75em;
 }
 
 

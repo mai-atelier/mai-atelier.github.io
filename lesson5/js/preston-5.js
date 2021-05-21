@@ -3,7 +3,7 @@ const now = new Date();
 let inform = document.querySelector('.nortification');
 
 if (now.getDay() == 5){
-    let pancake = document.querySelector('pancake');
+    let pancake = document.querySelector('.pancake');
     let start = document.querySelector('.start');
     let middle = document.querySelector('.highlight');
     let end =  document.querySelector('.end');
@@ -12,7 +12,8 @@ if (now.getDay() == 5){
     
     start.innerHTML = '🥞 Saturday  =';  
     middle.innerHTML = ' Preston Pancakes ';
-    end.innerHTML ='in the Park!';  
+    end.innerHTML ='in the Park!'; 
+   
     info.innerHTML = '9:00 a.m. Saturday at the city park pavilion.';
     button.innerHTML = 'Check Now';
 
