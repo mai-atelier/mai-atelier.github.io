@@ -10,9 +10,27 @@
 		max-width: 100%;
     }
 
-    .nortification p {
+    .nortification {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border-radius:  0 0 100px 100px;
+    }
+
+    .event-info {
     padding: 0;
     }
+
+    .cta-box {
+        grid-column: 3/4;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+    
+    .cta{
+         margin: .38em;
+     }
+    
 
     nav {
         padding: 0;
@@ -43,6 +61,19 @@
         display: none;
     }
 
+    main {
+        padding: 1.75em;
+        padding-bottom: 7em;
+    }
+
+    main h2 {
+        margin: 0;
+    }
+    
+    main h3 {
+        padding: 2% 0;
+    }
+
     .report {
         position: relative;
     }
@@ -58,8 +89,8 @@
         position: absolute;
         background: rgb(255, 255, 255, 0.86);
         box-shadow: #3e3e3e;
-        top: 1%;
-        left: 1%;
+        left: 0.5%;
+        top: 3%;
         padding: 0.8em 1em;
     }
 
@@ -71,14 +102,44 @@
         color:#3e3e3e;
     }
 
+    .summary {
+        margin: 0;
+    }
+    
+.current {
+    margin: 1em;
+    padding-left: 3em;
+    border-left: solid 1px #abcaca;
+}
+
     .condition li p{
         color:#3e3e3e;
         padding: 2% 1.25em;
         font-size: 0.86em;
         }
 
+
+        .subject {
+            margin-top: 1em;
+        }
+
     .weather img{
         max-width: 100%;
+    }
+
+    .highest {
+        font-size: 1.6em;
+        text-align: center;
+        color:#3e3e3e;
+    }
+
+    .news img{
+        float: right;
+        width: 40%;
+    }
+
+    .news p{
+        padding-left: 2em;
     }
 
     .contact-box{
@@ -103,15 +164,8 @@
         color: #3e3e3e;
     }
 
-    .highest {
-        font-size: 1.6em;
-        text-align: center;
-        color:#3e3e3e;
-    }
-
-    .news img{
-        float: right;
-        width: 40%;
+    .forecast li {
+        font-size: 1em;
     }
 
 } /*end medium */
