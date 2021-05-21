@@ -16,6 +16,10 @@
         border-radius:  0 0 100px 100px;
     }
 
+
+.nortification p+p {
+    margin: 0;
+}
     .event-info {
     padding: 0;
     }
@@ -142,6 +146,19 @@
         padding-left: 2em;
     }
 
+    
+    .content {
+        color: #3e3e3e;
+    }
+
+    .forcast {
+        margin: 0 3em;
+    }
+
+    .forecast li {
+        font-size: 1em;
+    }
+
     .contact-box{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -160,12 +177,5 @@
         grid-row: 1;
     }
 
-    .content {
-        color: #3e3e3e;
-    }
-
-    .forecast li {
-        font-size: 1em;
-    }
 
 } /*end medium */
