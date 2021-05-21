@@ -228,9 +228,6 @@ nav ul li.active {
         color: #3e3e3e;
     }
 
-    
-
-
 .fivedays { 
     background:
     radial-gradient(at top left, #bbd4d4, transparent),
@@ -280,6 +277,7 @@ nav ul li.active {
     text-align: left;
     padding:0 2em;
 }
+
  .cta-2 {
      display: flex;
      justify-content: flex-end;

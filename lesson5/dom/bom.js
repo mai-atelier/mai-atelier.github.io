@@ -13,7 +13,6 @@ button.addEventListener('click', ()=> {
     item.append(deletebutton);
     myList.append(item);	
    
-
 deletebutton.addEventListener('click', function() {
     myList.removeChild(item);
     input.focus();

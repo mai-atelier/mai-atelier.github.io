@@ -75,7 +75,7 @@
     }
     
     main h3 {
-        padding: 2% 0;
+        padding: 1em 2%;
     }
 
     .report {
@@ -122,11 +122,6 @@
         font-size: 0.86em;
         }
 
-
-        .subject {
-            margin-top: 1em;
-        }
-
     .weather img{
         max-width: 100%;
     }
@@ -143,7 +138,7 @@
     }
 
     .news p{
-        padding-left: 2em;
+        padding-left: 2.4em;
     }
 
     
