@@ -18,14 +18,5 @@
     .event-box {
         position: relative;
     }
-
-    .nortification 
-        position: relative;
-    
-
-    .cta 
-        position: absolute;
-        left: 30%;
-        bottom: 30%;
-        
+   
 } /*end large */

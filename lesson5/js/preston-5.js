@@ -1,12 +1,24 @@
 const now = new Date();
+
+let nortification = document.querySelector('.nortification');
+
 if (now.getDay() == 5){
-    let event = document.querySelector('.event-title');
+    let name = document.querySelector('.event-title');
     let info =  document.querySelector('.event-info');
-    event.innerHTML = '🥞Saturday = Preston Pancakes in the Park!';  
+    let button = document.querySelector('.cta');
+    
+    name.innerHTML = '🥞Saturday = Preston Pancakes in the Park!';  
     info.innerHTML = '9:00 a.m. Saturday at the city park pavilion.';
-    event.style.display = 'block';
+    button.innerHTML = 'Check Now';
+
     info.style.display = 'block';
+    name.style.display = 'block';
+    button.style.display = 'block';
 }
+    else{
+        nortification.style.display = 'none';
+    }
+
 
 const drop = document.querySelector('.toggle');
 const menu = document.querySelector('.hide');
