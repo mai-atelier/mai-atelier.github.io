@@ -114,10 +114,11 @@ main {
     color: #3e3e3e;
     background:#ffe981;
 }
+
 main h3{
     color:#3e3e3e;
     margin: 0 1em;
-    padding:0.75em;
+    padding: 0;
 }
 
 
@@ -127,7 +128,7 @@ h2 {
 
 nav {
     margin-top: 1.75em;
-    padding: 0.8em 2%;
+    padding: 0.38em 2%;
     background:#bbd4d4;
     text-align: center;
 }
@@ -139,17 +140,18 @@ nav {
 }
 
 .hide li:first-child{
-    margin: 0 2%;
     display: block; 
+    margin: 0 2%;
     padding:2% 0;
 }
 
-.hide li {
-    display: none;
+.hide li{
+   display: none;
 }
 
-.hide a{
-    padding: 0.8em 2%;
+.hide li a{
+    display: block;
+    padding: 0.38em 2%;
     text-decoration: none;
     color:#3e3e3e;
     }
@@ -157,14 +159,15 @@ nav {
     .hide a:hover{
         color: black;  
     }
+    
+
+.responsive li{
+        font-family:Poppins, Verdana, sans-serif;
+        display: block;
+    }
 
     .responsive li:hover:not(:first-child){
         background:rgba(255,255,255,0.6);
-    }
-    
-.responsive li {
-        display: block;
-        font-family:Poppins, Verdana, sans-serif;
     }
 
 nav ul li.active {

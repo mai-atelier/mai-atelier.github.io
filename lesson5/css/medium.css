@@ -34,11 +34,6 @@
     .cta{
          margin: .38em;
      }
-    
-
-    nav {
-        padding: 0;
-    }
 
     .hide {
         display: flex;
@@ -58,11 +53,7 @@
     .hide li a {
         text-align: center;
         border: none;
-        padding: .8em 1em;
-    }
-
-    .toggle {
-        display: none;
+        padding: .38em 1em;
     }
 
     main {
@@ -75,7 +66,7 @@
     }
     
     main h3 {
-        padding: 1em 2%;
+        padding: 1em 0;
     }
 
     .report {
@@ -92,7 +83,6 @@
         align-items: center;
         position: absolute;
         background: rgb(255, 255, 255, 0.86);
-        box-shadow: #3e3e3e;
         left: 0.5%;
         top: 3%;
         padding: 0.8em 1em;
@@ -138,7 +128,7 @@
     }
 
     .news p{
-        padding-left: 2.4em;
+        padding-left: 1em;
     }
 
     

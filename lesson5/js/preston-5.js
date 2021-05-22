@@ -26,11 +26,10 @@ if (now.getDay() == 5){
     }
 
 
+const hambutton = document.querySelector('.drop');
+const menu = document.querySelector('.hide')
 
-const drop = document.querySelector('.toggle');
-const menu = document.querySelector('.hide');
-
-drop.addEventListener('click', ()=> {menu.classList.toggle('responsive')}, false);
+hambutton.addEventListener('click', () => {menu.classList.toggle('responsive')}, false);
 
 document.getElementById('year').innerHTML = now.getFullYear();
 document.getElementById('date').innerHTML = new Intl.DateTimeFormat("en-US",{ dateStyle:"full"}).format(now);
