@@ -158,11 +158,6 @@ nav {
     text-align: center;
     }
 
-    .hide a:hover{
-        color: black;  
-    }
-
-
     .responsive li:hover:not(:first-child){
         background:rgba(255,255,255,0.6);
     }
@@ -172,6 +167,9 @@ nav {
         display: block;
     }
 
+    .responsive a:visited {
+        color:white;  
+    }
 nav ul li.active {
     background:#ffdf33;
     color: white;

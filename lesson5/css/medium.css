@@ -54,6 +54,8 @@
         text-align: center;
         border: none;
         padding: .75em 1em;
+        text-decoration: none;
+        font-family:Poppins, Verdana, sans-serif;
     }
 
     .hide li:hover:not(:first-child){
