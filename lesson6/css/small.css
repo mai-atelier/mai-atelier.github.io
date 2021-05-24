@@ -30,6 +30,9 @@ main h2 {
 
 main h3 {
     font-family:Poppins, Verdana, sans-serif;
+    color:#3e3e3e;
+    margin: 0 1em;
+    padding: .75em;
 }
 
 footer h3 {
@@ -116,11 +119,6 @@ main {
     background:#ffe981;
 }
 
-main h3{
-    color:#3e3e3e;
-    margin: 0 1em;
-    padding: 0;
-}
 
 
 h2 {

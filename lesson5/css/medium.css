@@ -51,9 +51,10 @@
     }
 
     .hide li a {
+        font-family:Poppins, Verdana, sans-serif;
         text-align: center;
         border: none;
-        padding: .38em 1em;
+        padding: .75em 1em;
     }
 
     main {
