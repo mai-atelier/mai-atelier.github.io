@@ -54,6 +54,7 @@ main {
     background: #ffffff;
 }
 
+
 .nortification{
     font-family: "Work Sans", Karla, sans-serif;
     padding: 1em 2%;
@@ -126,6 +127,7 @@ h2 {
     color:#3e3e3e;
 }
 
+
 nav {
     margin-top: 1.75em;
     padding: 0.38em 2%;
@@ -149,25 +151,27 @@ nav {
    display: none;
 }
 
-.responsive li a{
+.hide a{
     display: block;
     padding: 0.38em 2%;
     text-decoration: none;
     color:#3e3e3e;
+    font-family:Poppins, Verdana, sans-serif;
+    text-align: center;
     }
 
     .hide a:hover{
         color: black;  
     }
-    
 
-.responsive li{
-        font-family:Poppins, Verdana, sans-serif;
-        display: block;
-    }
 
     .responsive li:hover:not(:first-child){
         background:rgba(255,255,255,0.6);
+    }
+
+    .responsive li{
+        font-family:Poppins, Verdana, sans-serif;
+        display: block;
     }
 
 nav ul li.active {
@@ -207,12 +211,14 @@ nav ul li.active {
     }
 
     .temprature {
+        color: #3e3e3e;
         font-size: 48px;
     }
 
     .weather {
         font-size: 1.2em;
         font-family:Poppins, Verdana, sans-serif;
+        
     }
 
     .condition {
@@ -221,13 +227,13 @@ nav ul li.active {
     margin: 0;
     }
     
-    .condition li p{
+    .label{
     color: #3e3e3e;
     text-align: left;
     font-family: "Work Sans", Karla, sans-serif;
     }
 
-    .content {
+    .label span {
         color: #3e3e3e;
     }
 
