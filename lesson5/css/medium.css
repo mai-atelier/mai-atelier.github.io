@@ -52,6 +52,7 @@
 
     .hide li a {
         font-family:Poppins, Verdana, sans-serif;
+        text-decoration: none;
         text-align: center;
         border: none;
         padding: .75em 1em;
