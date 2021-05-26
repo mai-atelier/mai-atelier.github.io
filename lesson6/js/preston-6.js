@@ -4,19 +4,9 @@ let inform = document.querySelector('.nortification');
 
 if (now.getDay() == 5){
     let pancake = document.querySelector('.pancake');
-    let start = document.querySelector('.start');
-    let middle = document.querySelector('.highlight');
-    let end =  document.querySelector('.end');
-    let info =  document.querySelector('.event-info');
+     let info =  document.querySelector('.event-info');
     let button = document.querySelector('.cta');
     
-    start.innerHTML = '🥞 Saturday  =';  
-    middle.innerHTML = ' Preston Pancakes ';
-    end.innerHTML ='in the Park!'; 
-   
-    info.innerHTML = '9:00 a.m. Saturday at the city park pavilion.';
-    button.innerHTML = 'Check Now';
-
     pancake.style.display = 'block';
     info.style.display = 'block';
     button.style.display = 'block';
