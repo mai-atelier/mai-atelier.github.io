@@ -103,9 +103,9 @@
         margin: 0;
     }
     
-.current {
+.content {
     margin: 1em;
-    padding-left: 3em;
+    padding-left: 1em;
     border-left: solid 1px #abcaca;
 }
 

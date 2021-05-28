@@ -185,7 +185,7 @@ nav ul li.active {
     max-width: 100%;
 }
 
-.summary {
+.summary-box {
     display: flex;
     justify-content: space-evenly;
     align-items:center;
@@ -198,11 +198,11 @@ nav ul li.active {
     margin: 0;
 }
 
-.current {
+.content {
     margin: 1em;
 }
 
-    .current p{
+    .content p{
     color: #3e3e3e;
     text-align: left;
     font-family: "Work Sans", Karla, sans-serif;
@@ -308,10 +308,14 @@ nav ul li.active {
     padding:0.75em 3em;
  }
 
-    footer p,span {
+    footer p {
         font-family: "Work Sans", Karla, sans-serif;
         color: white;
-    
+    }
+
+    footer span {
+        font-family: "Work Sans", Karla, sans-serif;
+    color: white;
     }
 
     footer a {

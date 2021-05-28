@@ -102,7 +102,7 @@
         color:#3e3e3e;
     }
 
-    .summary {
+    .summary-box {
         margin: 0;
     }
     
@@ -138,7 +138,7 @@
     }
 
     
-    .content {
+    #current {
         color: #3e3e3e;
     }
 
