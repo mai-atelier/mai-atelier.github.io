@@ -167,9 +167,11 @@ nav {
         display: block;
     }
 
-    .responsive a:visited {
-        color:white;  
+    .responsive a{
+        text-decoration: none;
     }
+
+    
 nav ul li.active {
     background:#ffdf33;
     color: white;
@@ -312,6 +314,10 @@ nav ul li.active {
     
     }
 
+    footer a {
+        text-decoration: none;
+    }
+    
     footer a:visited {
         color: #bbd4d4;
     }
