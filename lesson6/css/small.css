@@ -177,10 +177,6 @@ nav ul li.active {
     padding: 0.75em;
 }
 
-.report img{
-    max-width: 100%;
-}
-
 .summary-box {
     display: flex;
     justify-content: space-evenly;
