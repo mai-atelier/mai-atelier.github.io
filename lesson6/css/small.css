@@ -9,12 +9,8 @@ img {
 
 .brand {
     padding: 1.75em 0.25em;
-}
-header h1,p{
     text-align: center;
 }
-
-
 
 h1, h2 {
     font-family:Poppins, Verdana, sans-serif;
@@ -38,7 +34,8 @@ main h3 {
 footer h3 {
     font-family:Poppins, Verdana, sans-serif;
 }
- p { 
+ 
+body p { 
     font-family: "Work Sans", Karla, sans-serif;
     color: #3e3e3e;
     margin: 0;
@@ -59,7 +56,6 @@ main {
 
 
 .nortification{
-    font-family: "Work Sans", Karla, sans-serif;
     padding: 1em 2%;
     font-size: 0.8em;
     background:
@@ -311,6 +307,7 @@ nav ul li.active {
     footer p {
         font-family: "Work Sans", Karla, sans-serif;
         color: white;
+        text-align: center;
     }
 
     footer span {
