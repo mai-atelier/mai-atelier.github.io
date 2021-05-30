@@ -78,9 +78,10 @@
     .report {
         position: relative;
     }
-    
+   
+     
     .report img {
-        max-width: 100%;
+        width: 100%;
     }
 
     .overlay {
