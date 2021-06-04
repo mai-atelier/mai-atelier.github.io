@@ -362,9 +362,7 @@ nav ul li.active {
 }
 
 .gallery {
-    background:
-    radial-gradient(at top left, #bbd4d4, transparent),
-    radial-gradient(at top right, #A7D3F2, transparent);
+   
     padding: 2%;
     margin-bottom: 2em;
 }

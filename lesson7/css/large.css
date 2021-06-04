@@ -21,7 +21,13 @@
     }
    
 
-img[data-src]:hover{
+.gallery {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-gap: .75em;
+}
+
+[data-src]:hover{
     box-shadow: 0 2px 8px 0 rgba( 187,212,212,0.8 );
 }
 } /*end large */
