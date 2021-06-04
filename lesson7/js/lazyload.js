@@ -7,7 +7,7 @@ const loadImages = (image) =>{
 
 const options = {
     rootMargin: "0px 0px 300px 0px" ,
-    threshold: 0
+    threshold: 1
 };
 
 const observer = new IntersectionObserver((entries,options)=>{

@@ -23,11 +23,20 @@
 
 .gallery {
    display: grid;
-   grid-template-columns: repeat(3,1fr);
-   grid-gap: .75em;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 1.75em;
+}  
+
+picture {
+    border: solid 1px rgba(62,62,62, 0.25);
 }
 
-[data-src]:hover{
-    box-shadow: 0 2px 8px 0 rgba( 187,212,212,0.8 );
+picture p {
+    padding: .75em 0;
+}
+
+picture:hover{
+    box-shadow: 0 2px 8px 0 rgba(62,62,62, 0.18);
+    margin-top: -2px;
 }
 } /*end large */
