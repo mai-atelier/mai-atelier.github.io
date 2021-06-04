@@ -20,4 +20,8 @@
         padding: .6em 1em;
     }
    
+
+img[data-src]:hover{
+    box-shadow: 0 2px 8px 0 rgba( 187,212,212,0.8 );
+}
 } /*end large */
