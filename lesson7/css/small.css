@@ -358,7 +358,7 @@ nav ul li.active {
     justify-content: center;
     align-items: center;
     font-size: 0.8em;
-    padding-top: .75em;
+    padding: .25em 0;
 }
 
 picture {
@@ -375,7 +375,7 @@ picture img{
 
 picture img[data-src]{
     display: block;
-    filter: blur(0.2em);
+    filter: blur(0.2em), opacity(0.8);
 }
 
 picture p {
