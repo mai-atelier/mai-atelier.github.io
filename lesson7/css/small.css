@@ -371,7 +371,6 @@ picture {
 picture img{
     filter: blur(0em);
     transition: filter 0.4s;
-    margin-top: 50px;
 }
 
 picture img[data-src]{
