@@ -369,13 +369,14 @@ picture {
 }
 
 picture img{
+    color:rgba(255,255,255,0.6);
     filter: blur(0em);
     transition: filter 0.4s;
 }
 
 picture img[data-src]{
     display: block;
-    filter: blur(0.2em), opacity(0.8);
+    filter: blur(0.16em);
 }
 
 picture p {
