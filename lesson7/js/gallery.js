@@ -42,5 +42,5 @@ let days = Math.round(seconds/convert);
 return days;
 }
 
-document.getElementById('user').innerHTML = dayOfNumbers();
+document.getElementById('user').innerHTML = 'You visited '+ dayOfNumbers() +' days ago!';
 const update = localStorage.setItem('date',now.getTime());
