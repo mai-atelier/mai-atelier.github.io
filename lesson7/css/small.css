@@ -382,3 +382,7 @@ picture img[data-src]{
     text-align: center;
     padding-bottom: 1.75em;
 }
+
+span {
+    margin: 10px;
+}

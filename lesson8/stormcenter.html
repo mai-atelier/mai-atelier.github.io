@@ -52,29 +52,33 @@
             </nav>
     <main>
         <h2 class="town"> Storm Notification Form </h2>
-        <ul class="usereport">
+        <div class="usereport">Personal Information
+        <ul class="personal">
             <li>
-                <label for="name">Full Name</label>
+                <label for="name">Full name <span class="mandatory">*</span></label><br>
                 <input type="text" id="name" name="name" required minlength="5">
             </li>
             <li>
-                <label for="email">Email</label>
+                <label for="email">Email</label><br>
                 <input type="email" id="email" name="email" placeholder="cloudshouse.co@email.com">
             </li>
             <li>
-                <label for="tel">Phone Number</label>
-                <input type="tel" id="tel" name="tel">
+                <label for="tel">Phone number<span class="mandatory">*</span></label><br>
+                <input type="tel" id="tel" name="tel" required>
             </li>
             <li>
-                <label for="zip">Zipcode</label>
-                <input type="number" id="zip" name="zip">
+                <label for="zip">Zipcode<span class="mandatory">*</span></label><br>
+                <input type="number" id="zip" name="zip" required>
             </li>
+        </ul>
+        <div class="usereport">Storm Information
+        <ul class="storm">
             <li>
-                <label for="stormdate">Storm Date</label>
+                <label for="stormdate">Storm date</label><br>
                 <input type="date" id="stormdate" name="stormdate">
             </li>
             <li>
-                <label for="storm">Storm Type</label>
+                <label for="storm">Storm type</label><br>
                 <input list="storm-type" id="storm" name="storm">
                 <datalist id="storm-type">
                     <option value="Flash Flood"></option>
@@ -82,19 +86,18 @@
                     <option value="Hurricane"></option>
                     <option value="Thunderstorm"></option>
                     <option value="Tornado"></option>
-                </datalist>
-                
+                </datalist> 
             </li>
             <li>
-                <label for="severity">Storm Severity</label>
+                <label for="severity">Storm severity</label><br>
                 <input type="range" id="severity" name="severity"
                 value="1" min="0" max="10">
             </li>
             <li>
-                <label for="region">Storm Region</label>
+                <label for="region">Storm region</label><br>
                 <select id="region" name="region">
                
-                    <option disabled selected>Select Region ...</option>
+                    <option disabled selected>Select region ...</option>
                     <option value="Preston">Preston</option>
                     <option value="Soda Springs">Soda Springs</option>
                     <option value="Fish Haven">Fish Haven</option> 
@@ -102,7 +105,7 @@
             </select>
             </li>
             <li>
-                <label for="danger">In Danger Level</label>
+                <label for="danger">In danger level</label><br>
                 <div class="answer">
                 <input type="radio" id="a1" name="a1"value="yes">
                 <label for="a1">Yes</label> 
@@ -116,17 +119,21 @@
                 <label for="a3">No</label>
                 </div>
             </li>
+        </ul> 
+        </div>  
+        <div class="more">Additional Information
+        <ul>
             <li>
-                <label for="comment">Comments</label>
+                <label for="comment">Comments</label><br>
                 <textarea name="comment"></textarea>
             </li>
             <li>
                 <label for="submit">
-                <input type="submit" name="submit" value="Send Form">
+                <input type="submit" name="submit" value="Send form">
             </label>
             </li>
         </ul>
-       
+    </div>
         
         
         
