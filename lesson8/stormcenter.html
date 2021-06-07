@@ -52,6 +52,83 @@
             </nav>
     <main>
         <h2 class="town"> Storm Notification Form </h2>
+        <ul>
+            <li>
+                <label for="name">Full Name</label>
+                <label for="email">Email</label>
+                <label for="tel">Phone Number</label>
+                <label for="zipcode">Zipcode</label>
+                <label for="stormdate">Storm Date</label>
+                <label for="storm">Select Storm Type</label>
+                <label for="severity">Storm Severity</label>
+                <label for=""></label>
+                <label for=""></label>
+                <label for=""></label>
+                <input type="text" id="name" name="name" required minlength="5">
+            </li>
+            <li>
+                <input type="email" id="email" name="email" placeholder="cloudshouse.co@email.com">
+            </li>
+            <li>
+                <input type="tel" id="tel" name="tel">
+            </li>
+            <li>
+                <input type="number" id="zipcode" name="zipcode">
+            </li>
+            <li>
+                <input type="date" id="stormdate" name="stormdate">
+            </li>
+            <li>
+                <input list="storm-type" id="storm" name="storm">
+                <datalist id="storm-type">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist>
+            </li>
+            <li>
+                <input type="range" id="severity" name="severity"
+                value="1" min="1" max="10">
+            </li>
+            <li>
+                <input list="region-name" id="storm-region" name="storm-region">
+                <datalist id="region-name">
+                    <option>Select Region ...</option>
+                    <option value="Preston"></option>
+                    <option value="Soda Springs"></option>
+                    <option value="Fish Haven"></option>
+                </datalist>
+            </li>
+            <li>
+                <input type="radio" id="danger" name="danger">
+                <option value="yes"></option>
+                <option value="maybe"></option>
+                <option value="no"></option>
+            </li>
+            <li>
+                <textarea name="comment">
+            </li>
+            <li>
+                <input type="submit" name="submit">
+            </li>
+        </ul>
+       
+        
+        
+        
+       
+
+
+
+
+
+
+
+
+
+
 
     </main>
 
