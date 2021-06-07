@@ -1,6 +1,6 @@
 const now = new Date();
 
-let inform = document.querySelector('.nortification');
+let inform = document.querySelector('.notification');
 
 if (now.getDay() == 5){
     let pancake = document.querySelector('.pancake');

@@ -1,0 +1,174 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+    .logo-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header img {
+		max-width: 100%;
+    }
+
+    .nortification {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border-radius:  0 0 100px 100px;
+    }
+
+
+.nortification p+p {
+    margin: 0;
+}
+    .event-info {
+    padding: 0;
+    }
+
+    .cta-box {
+        grid-column: 3/4;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+    
+    .cta{
+         margin: .38em;
+     }
+
+    .hide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hide li{
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .hide li:first-child{
+        display: none;
+    }
+
+    .hide li a {
+        border: none;
+        padding: .75em 1em;
+    }
+
+    .hide li:hover:not(:first-child){
+        background:rgba(255,255,255,0.6);
+    }
+
+    main {
+        padding: 1.75em;
+        padding-bottom: 7em;
+    }
+
+    main h2 {
+        margin: 0;
+    }
+    
+    main h3 {
+        padding: 1em 0;
+    }
+
+    .report {
+        position: relative;
+    }
+    
+    picture img {
+        max-width: 100%;
+    }
+
+    .overlay {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background: rgb(255, 255, 255, 0.86);
+        left: 0.5%;
+        top: 3%;
+        padding: 0.8em 1em;
+    }
+
+    .overlay h3 {
+        color:#3e3e3e;
+    }
+
+    .overlay p{
+        color:#3e3e3e;
+    }
+
+    .summary {
+        margin: 0;
+    }
+    
+.content {
+    margin: 1em;
+    padding-left: 1em;
+    border-left: solid 1px #abcaca;
+}
+
+    .condition li p{
+        color:#3e3e3e;
+        padding: 2% 1.25em;
+        font-size: 0.86em;
+        }
+
+    .weather img{
+        max-width: 100%;
+    }
+
+    .highest {
+        font-size: 1.6em;
+        text-align: center;
+        color:#3e3e3e;
+    }
+
+    .news img{
+        float: right;
+        width: 40%;
+    }
+
+    .news p{
+        padding-left: 1em;
+    }
+
+    
+    .content {
+        color: #3e3e3e;
+    }
+
+    .forcast {
+        margin: 0 3em;
+    }
+
+    .forecast li {
+        font-size: 1em;
+    }
+
+    .contact-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 2em;
+    }
+
+    .map-box {
+        grid-column: 1/2;
+        grid-row: 1;
+        justify-content: center;
+    }
+
+    .contact {
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: .75em;
+     }
+
+} /*end medium */
