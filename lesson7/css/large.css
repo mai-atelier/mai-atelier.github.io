@@ -36,7 +36,7 @@
     padding: .75em 0;
 }
 
-picture:hover{
+.weatherimage:hover{
     box-shadow: 0 2px 8px 0 rgba(62,62,62, 0.18);
     margin-top: -2px;
 }
