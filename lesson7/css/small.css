@@ -378,16 +378,7 @@ picture img[data-src]{
     filter: blur(0.16em);
 }
 
-picture p {
+picture label {
     text-align: center;
     padding-bottom: 1.75em;
-}
-.visit {
-    font-size: 0.8em;
-    background:
-    radial-gradient(at bottom left,rgba(62,62,62), rgba(62,62,62, 0.48)),
-    radial-gradient(at top right, #fdf7f2, transparent);
-    text-align: center;
-    color:white; 
-    padding: 1em 2%;
 }
