@@ -27,12 +27,12 @@
    grid-gap: 1.75em;
 }  
 
-picture {
+.weatherimage {
    margin: 0;
    border: solid 1px rgba(62,62,62, 0.25);
 }
 
-picture p {
+.weatherimage p {
     padding: .75em 0;
 }
 
