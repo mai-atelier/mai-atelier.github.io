@@ -360,7 +360,7 @@ nav ul li.active {
     padding: .25em 0;
 }
 
-picture {
+.weatherimage {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -378,7 +378,7 @@ picture img[data-src]{
     filter: blur(0.16em);
 }
 
-picture label {
+.weatherimage p{
     text-align: center;
     padding-bottom: 1.75em;
 }
