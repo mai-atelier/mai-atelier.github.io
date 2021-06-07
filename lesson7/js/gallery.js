@@ -41,6 +41,5 @@ let seconds = now.getTime() -lastVisit;
 let days = Math.round(seconds/convert);
 return days;
 }
-
 document.getElementById('user').innerHTML = dayOfNumbers() ;
 const update = localStorage.setItem('date',now.getTime());
