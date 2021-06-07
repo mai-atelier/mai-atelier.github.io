@@ -55,30 +55,26 @@
         <ul>
             <li>
                 <label for="name">Full Name</label>
-                <label for="email">Email</label>
-                <label for="tel">Phone Number</label>
-                <label for="zipcode">Zipcode</label>
-                <label for="stormdate">Storm Date</label>
-                <label for="storm">Select Storm Type</label>
-                <label for="severity">Storm Severity</label>
-                <label for=""></label>
-                <label for=""></label>
-                <label for=""></label>
                 <input type="text" id="name" name="name" required minlength="5">
             </li>
             <li>
+                <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="cloudshouse.co@email.com">
             </li>
             <li>
+                <label for="tel">Phone Number</label>
                 <input type="tel" id="tel" name="tel">
             </li>
             <li>
-                <input type="number" id="zipcode" name="zipcode">
+                <label for="zip">Zipcode</label>
+                <input type="number" id="zip" name="zip">
             </li>
             <li>
+                <label for="stormdate">Storm Date</label>
                 <input type="date" id="stormdate" name="stormdate">
             </li>
             <li>
+                <label for="storm">Storm Type</label>
                 <input list="storm-type" id="storm" name="storm">
                 <datalist id="storm-type">
                     <option value="Flash Flood"></option>
@@ -87,30 +83,46 @@
                     <option value="Thunderstorm"></option>
                     <option value="Tornado"></option>
                 </datalist>
+                <option selected>Select storm type ...</option>
             </li>
             <li>
+                <label for="severity">Storm Severity</label>
                 <input type="range" id="severity" name="severity"
-                value="1" min="1" max="10">
+                value="1" min="0" max="10">
             </li>
             <li>
-                <input list="region-name" id="storm-region" name="storm-region">
+                <label for="region">Storm Region</label>
+                <input list="region-name" id="region" name="region">
                 <datalist id="region-name">
-                    <option>Select Region ...</option>
                     <option value="Preston"></option>
                     <option value="Soda Springs"></option>
                     <option value="Fish Haven"></option>
                 </datalist>
+                <option selected>Select Region ...</option>
             </li>
             <li>
-                <input type="radio" id="danger" name="danger">
-                <option value="yes"></option>
-                <option value="maybe"></option>
-                <option value="no"></option>
+                <label for="danger">In Danger Level</label>
+                <div class="answer">
+               
+                <input type="radio" id="a1" name="a1"value="yes">
+                <label for="a1">Yes</label> 
+            </div>
+            <div class="answer">
+               
+                <input type="radio" id="a2" name="a2"value="maybe">
+                <label for="a2">Maybe</label>
+            </div>
+            <div class="answer">
+                <input type="radio" id="a3" name="a3"value="no">
+                <label for="a3">No</label>
+                </div>
             </li>
             <li>
-                <textarea name="comment">
+                <label for="comment">Comments</label>
+                <textarea name="comment"></textarea>
             </li>
             <li>
+                <label for="submit">Send</label>
                 <input type="submit" name="submit">
             </li>
         </ul>
