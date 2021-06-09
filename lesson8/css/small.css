@@ -382,3 +382,54 @@ picture img[data-src]{
     text-align: center;
     padding-bottom: 1.75em;
 }
+
+.userreport {
+    font-family: Poppins, Verdana, sans-serif;
+    margin: 0;
+}
+
+form ul.formbox {
+    list-style: none;
+}
+
+form ul.sbs {
+    list-style: none;
+}
+
+form fieldset {
+    margin: 2em;
+}
+
+form fieldset legend{
+    font-family: Poppins, Verdana, sans-serif;
+    padding:.75em .38em;
+    margin: 0 2em;
+}
+
+.formbox li {
+    padding: .5em 0;
+    margin: 0;
+}
+
+form label {
+    font-family: "Work Sans", Karla, sans-serif;
+    display: block;
+}
+
+.formbox li label input, select, textarea {
+    display: block;
+    padding: .75em;
+    margin: .5em 0;
+}
+
+.mandentory {
+    color:lightcoral;
+}
+
+.sbs li label {
+    padding: .75em 0;
+}
+
+.sbs li label input {
+    margin:0.25em;
+}
