@@ -390,6 +390,7 @@ picture img[data-src]{
 
 form ul.formbox {
     list-style: none;
+    margin: auto;
 }
 
 form ul.sbs {
@@ -398,11 +399,13 @@ form ul.sbs {
 
 form fieldset {
     margin: 2em;
+    border: solid 4px #bbd4d4;
+    border-radius: 20px;
 }
 
 form fieldset legend{
     font-family: Poppins, Verdana, sans-serif;
-    padding:.75em .38em;
+    padding:.5em .38em;
     margin: 0 2em;
 }
 
@@ -422,8 +425,18 @@ form label {
     margin: .5em 0;
 }
 
+.formbox li label input:focus, select:focus, textarea:focus {
+    border-radius: 6px;
+    border: solid 2px #5054CE;
+    outline: none;
+}
+
 .mandentory {
-    color:lightcoral;
+    color: #ED6A5E;
+}
+
+.formbox li label input:required {
+    border-left: solid 6px #ED6A5E;
 }
 
 .sbs li label {
@@ -432,4 +445,19 @@ form label {
 
 .sbs li label input {
     margin:0.25em;
+}
+.sbs li label input:after {
+    color: #5054CE;
+}
+
+.send input {
+    background:#ffe981;
+    border: none;
+    border-radius: 50px;
+    padding: 0.75em 1.75em;
+    max-width: 100%;
+}
+
+.send input:hover {
+    background:#ffd700;
 }
