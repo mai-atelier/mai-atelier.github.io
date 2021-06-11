@@ -54,9 +54,9 @@
         <h2 class="town"> Storm Notification Form </h2>
         <form method="GET" action="thanks.html">
         <fieldset>
-        <legend class="usereport"><h3>Personal Information</h3></legend>
         <ul class="formbox">
             <li>
+                <legend><h3>Personal Information</h3></legend>
                 <label for="name"> Full name <span class="mandentory">*</span>
                 <input type="text" id="name" name="name" required minlength="5">
                 </label>
@@ -80,9 +80,9 @@
         </fieldset>
 
         <fieldset>
-        <legend class="usereport"><h3>Storm Information</h3></legend>
-        <ul class="formbox">
-            <li>
+            <ul class="formbox">
+                <li>
+        <legend><h3>Storm Information</h3></legend>
                 <label for="stormdate">Storm date
                 <input type="date" id="stormdate" name="stormdate">
                 </label>
@@ -117,8 +117,13 @@
             </label>
             </li>
         </ul> 
+    </fieldset>
+
+    <fieldset>
+        
         <ul class="sbs">
             <li>
+                <legend><h3>Additional Information</h3></legend>
                 <label for="danger">Are you in danger?</label>
             </li>
             <li>
@@ -126,27 +131,23 @@
                 <label><input type="radio" name="answer" value="maybe">Maybe</label>
                 <label><input type="radio" name="answer" value="no">No</label>
             </li>
-            </ul>       
-        
-    </fieldset>
-
-    <fieldset>
-        <legend><h3>Additional Information</h3></legend>
-        <ul  class="formbox">
+            </ul>
+        <ul>
             <li>
                 <label for="comment">Comments<br>
                 <textarea name="comment"></textarea>
                 </label>
             </li>
-            <li>
+                     
+        </ul>
+    </fieldset>
+    <div class="form">
                 <label for="submit" class="send">
                 <input type="submit" name="submit" value="Report storm">
             </label>
-            </li>
-        </ul>
-    </fieldset>
+        </div>
     </form>
-        
+
         
         
        

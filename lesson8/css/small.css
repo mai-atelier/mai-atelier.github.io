@@ -24,7 +24,7 @@ main h2 {
 }
 
 
-main h3 {
+.subject h3 {
     font-family:Poppins, Verdana, sans-serif;
     color:#3e3e3e;
     margin: 0 1em;
@@ -383,30 +383,34 @@ picture img[data-src]{
     padding-bottom: 1.75em;
 }
 
-.userreport {
-    font-family: Poppins, Verdana, sans-serif;
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form ul{
+    list-style: none;
     margin: 0;
 }
 
-form ul.formbox {
-    list-style: none;
-    margin: auto;
+form ul li:first-child{
+    padding: 0;
 }
-
-form ul.sbs {
-    list-style: none;
-}
-
 form fieldset {
-    margin: 2em;
     border: solid 4px #bbd4d4;
     border-radius: 20px;
+    width: 320px;
+    margin-bottom: 1.75em;
 }
 
-form fieldset legend{
+form fieldset legend {
+    text-align: left ;
+}
+
+legend h3{
     font-family: Poppins, Verdana, sans-serif;
-    padding:.5em .38em;
-    margin: 0 2em;
 }
 
 .formbox li {
@@ -419,13 +423,25 @@ form label {
     display: block;
 }
 
-.formbox li label input, select, textarea {
+.formbox li label input, select{
+    display: block;
+    padding: .75em;
+    margin: .5em 0;
+} 
+
+form textarea {
     display: block;
     padding: .75em;
     margin: .5em 0;
 }
 
-.formbox li label input:focus, select:focus, textarea:focus {
+.formbox li label input:focus, select:focus{
+    border-radius: 6px;
+    border: solid 2px #5054CE;
+    outline: none;
+}
+
+textarea:focus {
     border-radius: 6px;
     border: solid 2px #5054CE;
     outline: none;
@@ -435,12 +451,9 @@ form label {
     color: #ED6A5E;
 }
 
-.formbox li label input:required {
-    border-left: solid 6px #ED6A5E;
-}
 
 .sbs li label {
-    padding: .75em 0;
+    padding: .5em 0;
 }
 
 .sbs li label input {
@@ -452,10 +465,11 @@ form label {
 
 .send input {
     background:#ffe981;
-    border: none;
+    border: solid 1px #ffe981;
     border-radius: 50px;
     padding: 0.75em 1.75em;
     max-width: 100%;
+    outline: none;
 }
 
 .send input:hover {
