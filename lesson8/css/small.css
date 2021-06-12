@@ -388,7 +388,8 @@ form {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 2em;
+    background: radial-gradient(at top left, #bbd4d4, transparent),
+                radial-gradient(at top right, #A7D3F2, transparent);
 }
 
 form ul{
@@ -400,18 +401,17 @@ form ul li:first-child{
     padding: 0;
 }
 form fieldset {
-    border: solid 4px #bbd4d4;
-    border-radius: 20px;
+    border: solid 1px #bbd4d4;
+    border-radius: 10px;
     width: 320px;
-    margin-bottom: 1.75em;
+    margin: .75em 0;
+    background: white;
+    
 }
 
-form fieldset legend {
-    text-align: left ;
-}
-
-legend h3{
+form h3{
     font-family: Poppins, Verdana, sans-serif;
+    text-align: left ;  
 }
 
 .formbox li {
@@ -469,7 +469,13 @@ textarea:focus {
     color: #5054CE;
 }
 
-.send input {
+.sendbtn {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+input.send  {
     background:#ffe981;
     border: solid 1px #ffe981;
     border-radius: 50px;
@@ -478,6 +484,6 @@ textarea:focus {
     outline: none;
 }
 
-.send input:hover {
+ input.send:hover {
     background:#ffd700;
 }
