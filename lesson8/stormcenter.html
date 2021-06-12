@@ -108,9 +108,14 @@
             </label>
             </li>
             <li>
-                <label for="severity">Storm severity
+               
+                <label for="severity">Storm severity 
+                   
                 <input type="range" id="severity" name="severity"
-                value="1" min="1" max="10" step="1">
+                value="1" min="0" max="10" step="1">
+                <div class="level">
+                <span>0</span><span>10</span>
+                </div>
                 </label>
             </li>
             <li>
@@ -198,8 +203,7 @@
            <span id="date"></span> </p>
         </div>
     </footer>
-    <script defer src = "js/preston-6.js"></script>
-    <script defer src="js/windchill.js"></script>
+    <script defer src = "js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>WebFont.load({
         google: {

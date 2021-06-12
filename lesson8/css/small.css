@@ -446,10 +446,6 @@ form textarea {
     border-radius: 6px;
 }
 
-.formbox li label input:required:focus{
-    border: solid 2px #ED6A5E;
-}
-
 textarea:focus {
     border-radius: 6px;
     border: solid 2px #5054CE;
@@ -490,4 +486,16 @@ input.send  {
 
  input.send:hover {
     background:#ffd700;
+}
+
+.level {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8;
+}
+
+#severity {
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
 }
