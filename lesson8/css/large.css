@@ -44,4 +44,15 @@ picture img:hover{
     margin-top: -2px;
 }
 
+form fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 640px;
+}
+form fieldset ul { 
+    padding: .5em;
+}
+
 } /*end large */

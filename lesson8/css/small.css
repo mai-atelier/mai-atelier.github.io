@@ -388,6 +388,7 @@ form {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 2em;
 }
 
 form ul{
@@ -427,6 +428,7 @@ form label {
     display: block;
     padding: .75em;
     margin: .5em 0;
+    
 } 
 
 form textarea {
@@ -439,6 +441,10 @@ form textarea {
     border-radius: 6px;
     border: solid 2px #5054CE;
     outline: none;
+}
+
+.formbox li label input:focus:required {
+    border-left: solid 6px #ED6A5E;
 }
 
 textarea:focus {

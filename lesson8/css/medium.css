@@ -171,4 +171,7 @@
         grid-gap: .75em;
      }
 
+     .sbs li {
+        padding: .5em 0;
+    }
 } /*end medium */
