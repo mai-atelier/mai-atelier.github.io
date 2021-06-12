@@ -479,6 +479,7 @@ input.send  {
     background:#ffe981;
     border: solid 1px #ffe981;
     border-radius: 50px;
+    margin-top: 3em;
     padding: 0.75em 1.75em;
     max-width: 100%;
     outline: none;
