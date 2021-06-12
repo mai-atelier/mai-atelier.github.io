@@ -1,5 +1,6 @@
 const now = new Date();
 
+/* announcemnet*/
 let inform = document.querySelector('.notification');
 
 if (now.getDay() == 5){
@@ -25,15 +26,48 @@ if (now.getDay() == 5){
         inform.style.display = 'none';
     }
 
+/* responsive navigation */
 const hambutton = document.querySelector('.drop');
 const menu = document.querySelector('.hide');
 
 hambutton.addEventListener('click', () => {menu.classList.toggle('responsive')}, false);
 
+/* footer */
+
 document.getElementById('year').innerHTML = now.getFullYear();
 document.getElementById('date').innerHTML = new Intl.DateTimeFormat("en-US",{ dateStyle:"full"}).format(now);
 
+/* gallery page */
+/* lazy loading */
+const images = document.querySelectorAll('img[data-src]');
 
+const loadImages = (image) =>{
+    image.setAttribute('src', image.getAttribute('data-src'));
+    image.onload = ()=>{image.removeAttribute('data-src');};
+};
+
+const options = {
+    rootMargin: "15px" ,
+    threshold: 1
+};
+
+const observer = new IntersectionObserver((entries,options)=>{
+    entries.forEach(entry =>{
+    if (entry.isIntersecting){
+        loadImages(entry.target);
+        observer.unobserve(entry.target);
+    }
+    else{
+        return;
+    }
+})
+},options);
+
+images.forEach((image)=>{
+    observer.observe(image);
+});
+
+/*user log*/
 function dayOfNumbers(){
 const lastVisit = localStorage.getItem('date');
 let convert = 1000*60*60*24;

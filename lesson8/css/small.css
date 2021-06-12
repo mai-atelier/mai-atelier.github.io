@@ -295,6 +295,10 @@ nav ul li.active {
     background: #ffd700;
 }
 
+#user, .link {
+    padding: 0 0.25em;
+}
+
  footer {
     padding:0.75em 3em;
  }
@@ -383,7 +387,7 @@ picture img[data-src]{
     padding-bottom: 1.75em;
 }
 
-form {
+.form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -498,4 +502,8 @@ input.send  {
     margin-bottom: 0;
     padding: 0;
     width: 100%;
+}
+
+.thanks {
+    margin: 2em;
 }

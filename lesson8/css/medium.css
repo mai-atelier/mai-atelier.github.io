@@ -171,7 +171,7 @@
         grid-gap: .75em;
      }
 
-     form{
+     .form{
         padding: 1em 0;
         background: radial-gradient(at top left, #bbd4d4, transparent),
                     radial-gradient(at top right, #A7D3F2, transparent);
