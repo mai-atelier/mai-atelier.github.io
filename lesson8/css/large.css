@@ -49,4 +49,9 @@ form fieldset ul {
     padding: .5em;
 }
 
+.sendbtn input{
+    width: 260px;
+    padding: 1em;
+}
+
 } /*end large */
