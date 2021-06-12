@@ -388,8 +388,6 @@ form {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: radial-gradient(at top left, #bbd4d4, transparent),
-                radial-gradient(at top right, #A7D3F2, transparent);
 }
 
 form ul{
@@ -403,10 +401,10 @@ form ul li:first-child{
 form fieldset {
     border: solid 1px #bbd4d4;
     border-radius: 10px;
-    width: 320px;
+    min-width: 280px;
     margin: .75em 0;
     background: white;
-    
+    box-shadow: 0 2px 8px 0 rgba( 187,212,212,0.38 );
 }
 
 form h3{
@@ -428,6 +426,8 @@ form label {
     display: block;
     padding: .75em;
     margin: .5em 0;
+    border:1px solid rgba(62,62,62, 0.48);
+    border-radius: 6px;
     
 } 
 
@@ -435,16 +435,19 @@ form textarea {
     display: block;
     padding: .75em;
     margin: .5em 0;
+    height: 3em;
+    border-radius:6px;
+    border:1px solid rgba(62,62,62, 0.48);
 }
 
 .formbox li label input:focus, select:focus{
-    border-radius: 6px;
     border: solid 2px #5054CE;
     outline: none;
+    border-radius: 6px;
 }
 
-.formbox li label input:focus:required {
-    border-left: solid 6px #ED6A5E;
+.formbox li label input:required:focus{
+    border: solid 2px #ED6A5E;
 }
 
 textarea:focus {
@@ -473,13 +476,13 @@ textarea:focus {
 display: flex;
 justify-content: center;
 align-items: center;
+padding: 2em 0;
 }
 
 input.send  {
-    background:#ffe981;
-    border: solid 1px #ffe981;
+    background:#ffdf33;
+    border: solid 1px #ffd700;
     border-radius: 50px;
-    margin-top: 3em;
     padding: 0.75em 1.75em;
     max-width: 100%;
     outline: none;
