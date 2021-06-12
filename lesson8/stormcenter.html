@@ -54,9 +54,11 @@
         <h2 class="town"> Storm Notification Form </h2>
         <form method="GET" action="thanks.html">
         <fieldset>
-        <ul class="formbox">
-            <li>
+            <div class="user">
                 <legend><h3>Personal Information</h3></legend>
+                </div>
+                <ul class="formbox">
+                    <li>
                 <label for="name"> Full name <span class="mandentory">*</span>
                 <input type="text" id="name" name="name" required minlength="5">
                 </label>
@@ -80,9 +82,11 @@
         </fieldset>
 
         <fieldset>
-            <ul class="formbox">
-                <li>
+           <div class="user">
         <legend><h3>Storm Information</h3></legend>
+    </div>
+        <ul class="formbox">
+            <li>
                 <label for="stormdate">Storm date
                 <input type="date" id="stormdate" name="stormdate">
                 </label>
@@ -121,9 +125,12 @@
 
     <fieldset>
         
-        <ul class="sbs">
-            <li>
+        <div class="user">
                 <legend><h3>Additional Information</h3></legend>
+            </div>
+                <ul>
+                <ul class="sbs">
+                    <li>
                 <label for="danger">Are you in danger?</label>
             </li>
             <li>
@@ -134,12 +141,12 @@
             </ul>
         <ul class="formbox">
             <li>
-                <label for="comment">Comments<br>
+                <label for="comment">Comments
                 <textarea name="comment"></textarea>
                 </label>
-            </li>
-                     
+            </li>       
         </ul>
+    </ul>
     </fieldset>
     <div class="form">
                 <label for="submit" class="send">
