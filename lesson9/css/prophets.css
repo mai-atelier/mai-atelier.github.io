@@ -1,0 +1,70 @@
+
+h1 {
+    background:white;
+    color: #807800;
+    text-align: center;
+    font-family:"Noto Serif SC", Georgia, serif;
+}
+h2{
+    text-align: center;
+    padding: .5em;
+    margin: 0;
+    font-family:"Noto Serif SC", Georgia, serif;
+}
+
+p {
+    text-align: center;
+    font-family:"Noto Serif SC", serif;
+    color: #171217;
+    margin: 0.25em 0;
+    font-family: Montserrat, Verdana, sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #FCF1ED;
+    border: solid 1px #e2d8d5;
+    padding: .5em;
+    margin: .75em;
+}
+
+img {
+    width: 70%;
+    box-shadow: 5px 5px 12px  rgba(104, 106, 121, 0.68);
+}
+
+main {
+    padding: 1em;
+    border: solid 1px #e2d8d5;
+    box-shadow: 5px 5px 0px rgba(226, 216, 213);
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
+    background: #807800;
+    color: white;
+}
+
+@media only screen and (min-width: 32.5em){
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: .25em;
+    }      
+}
+
+@media only screen and (min-width: 64em){
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: .25em;
+    }   
+    
+    section{
+    margin: .25em;
+    }
+}

@@ -11,9 +11,9 @@ if (now.getDay() == 5){
     let info =  document.querySelector('.event-info');
     let button = document.querySelector('.cta');
     
-    start.innerHTML = '🥞 Saturday  =';  
+    start.innerHTML = ' Saturday  =';  
     middle.innerHTML = ' Preston Pancakes ';
-    end.innerHTML ='in the Park!'; 
+    end.innerHTML ='in the Park! 🥞'; 
    
     info.innerHTML = '9:00 a.m. Saturday at the city park pavilion.';
     button.innerHTML = 'Check Now';

@@ -8,6 +8,7 @@ fetch(requestURL)
 
 
 .then(function (jsonObject){
+    console.table(jsonObject);
     const prophets =jsonObject['prophets'];// temporary checking for valid response and data parsing
     for(let i=0; i < prophets.length; i++){
         let card = document.createElement('section');
@@ -18,12 +19,12 @@ fetch(requestURL)
     card.appendChild(h2);
 
         let birth = document.createElement('p');
-        birth.textContent = 'Date of birth: ' + prophets[i].birthdate;
+        birth.textContent = 'Date of Birth: ' + prophets[i].birthdate;
     
     card.appendChild(birth);
 
         let place = document.createElement('p');
-        place.textContent = 'Place of birth: ' + prophets[i].birthplace;
+        place.textContent = 'Place of Birth: ' + prophets[i].birthplace;
     
     card.appendChild(place);
 
