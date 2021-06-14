@@ -5,16 +5,17 @@ h1 {
     text-align: center;
     font-family:"Noto Serif SC", Georgia, serif;
 }
-h2{
+
+h2 {
+    color: #171217;
     text-align: center;
     padding: .5em;
     margin: 0;
-    font-family:"Noto Serif SC", Georgia, serif;
+    font-family: Montserrat, Verdana, sans-serif;
 }
 
 p {
     text-align: center;
-    font-family: Montserrat, serif;
     color: #171217;
     margin: 0.25em 0;
     font-family: Montserrat, Verdana, sans-serif;
@@ -27,7 +28,7 @@ section {
     flex-direction: column;
     background: #FCF1ED;
     border: solid 1px #e2d8d5;
-    padding: .5em;
+    padding: .75em;
     margin: .75em;
 }
 
@@ -42,11 +43,17 @@ main {
     box-shadow: 5px 5px 12px rgb(107, 109, 119) ;
 }
 
+header {
+    padding: .25em;
+}
+
 footer {
     text-align: center;
     padding: 2em;
     background: #807800;
     color: white;
+    font-family: Montserrat, Verdana, sans-serif;
+    font-size:  0.8em;
 }
 
 @media only screen and (min-width: 32.5em){
