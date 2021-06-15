@@ -1,0 +1,519 @@
+img {
+    max-width: 100%;
+}
+
+.logo-box img {
+    padding: 0;
+    float: left;
+}
+
+.brand {
+    padding: 1.75em 0.25em;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family:Poppins, Verdana, sans-serif;
+    margin: 0;
+    padding:0.5em 0;  
+}
+
+main h2 {
+    padding-top: 1em;
+    margin: 0 2%;
+}
+
+
+.subject h3 {
+    font-family:Poppins, Verdana, sans-serif;
+    color:#3e3e3e;
+    margin: 0 1em;
+    padding: .75em;
+}
+
+footer h3 {
+    font-family:Poppins, Verdana, sans-serif;
+}
+ 
+body p { 
+    font-family: "Work Sans", Karla, sans-serif;
+    color: #3e3e3e;
+    margin: 0;
+}
+
+body, header{
+    background:#fdf7f2;
+}
+
+footer {
+   color: white;
+   background: #3e3e3e;
+}
+
+main {
+    background: #ffffff;
+}
+
+
+.notification{
+    padding: 1em 2%;
+    font-size: 0.8em;
+    background:
+    radial-gradient(at top right,rgba(62,62,62), rgba(62,62,62, 0.48)),
+    radial-gradient(at bottom left, #fdf7f2, transparent);
+}
+
+.event-box {
+   padding: 0.38em 1.58%;
+   grid-column: 1/3;
+}
+
+.pancake {
+    text-align: center;
+    color: white; 
+}
+
+.highlight {
+    text-align: center;
+    color:#ffe981; 
+}
+
+.event-title {
+    text-align: center;
+    color: white; 
+}
+
+.event-info {
+    text-align: center;
+    color:white;
+}
+
+.nortification p+p {
+    padding: 0.38em 1.58%;
+    margin: 0.38em;
+}
+
+.cta-box {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    width: 88px;
+    font-family: "Work Sans", Karla, sans-serif;
+    text-align: center;
+    color: #ffe981;
+    border: solid 1.2px #ffdf33;
+    background: transparent;
+    border-radius: 50px;
+    padding: .76em 1.75em;
+}
+
+.cta:hover {
+    color: #3e3e3e;
+    background:#ffe981;
+}
+
+.home {
+    margin: 2em;
+}
+
+.card {
+background: rgba(255,255,255,0.6);
+}
+
+.statics {
+    background: rgba(255,255,255,0.6);
+}
+
+h2 {
+    color:#3e3e3e;
+}
+
+
+nav {
+    margin-top: 1.75em;
+    padding: 0.38em 2%;
+    background:#bbd4d4;
+    text-align: center;
+}
+
+.hide {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hide li:first-child{
+    display: block; 
+    margin: 0 2%;
+    padding:2% 0;
+}
+
+.hide li{
+   display: none;
+}
+
+.hide a{
+    display: block;
+    padding: 0.38em 2%;
+    text-decoration: none;
+    color:#3e3e3e;
+    font-family:Poppins, Verdana, sans-serif;
+    text-align: center;
+    }
+
+    .responsive li:hover:not(:first-child){
+        background:rgba(255,255,255,0.6);
+    }
+
+    .responsive li{
+        font-family:Poppins, Verdana, sans-serif;
+        display: block;
+    }
+
+    .responsive a{
+        text-decoration: none;
+    }
+
+    
+nav ul li.active {
+    background:#ffdf33;
+    color: white;
+}
+
+.responsive li+li {
+    padding: 0.75em;
+}
+
+.summary-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    margin-bottom: .75em;
+}
+
+.overlay h3{
+    font-family:Poppins, Verdana, sans-serif;
+    color: #3e3e3e;
+    margin: 0;
+}
+
+.content {
+    margin: 1em;
+}
+
+    .content p{
+    color: #3e3e3e;
+    text-align: left;
+    font-family: "Work Sans", Karla, sans-serif;
+    }
+
+    .temprature {
+        color: #3e3e3e;
+        font-size: 48px;
+    }
+
+    .weather {
+        font-size: 1.2em;
+        font-family:Poppins, Verdana, sans-serif;
+        
+    }
+
+    .condition {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+    .label{
+    color: #3e3e3e;
+    text-align: left;
+    font-family: "Work Sans", Karla, sans-serif;
+    }
+
+    .label span {
+        color: #3e3e3e;
+    }
+
+.fivedays { 
+    background:
+    radial-gradient(at top left, #bbd4d4, transparent),
+    radial-gradient(at top right, #A7D3F2, transparent);
+    padding: 2%;
+    margin-bottom: 6em;
+}
+
+.forecast {
+    background: rgba(255,255,255,0.25);
+    box-shadow: 0 2px 8px 0 rgba( 187,212,212,0.8 );
+    border-radius:  20px;
+    margin: 0 .75em;
+}
+
+    .forecast ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0.75em;
+    }
+
+    .forecast li {
+        display: block;
+        font-family: "Work Sans", Karla, sans-serif;
+        text-align: center;
+        font-size: 0.8em;
+        color:#3e3e3e;
+        padding-top: 2%;
+    }
+    .forecast img{
+        max-width: 100%;
+        display: block;
+    }
+
+    .lowest {
+       font-size: 0.8em;
+    }
+
+    .news {
+        padding-bottom: 2em;
+    }
+
+.news p {
+    text-align: left;
+    padding:0 2em;
+}
+
+ .cta-2 {
+     display: flex;
+     justify-content: flex-end;
+    font-family: "Work Sans", Karla, sans-serif;
+    color:#3e3e3e;
+    margin: 1em;
+ }   
+
+ .cta-2 a{
+    border-radius: 50px;
+    background: #ffdf33;
+    padding: 0.75em 1.75em;
+    margin-right: 2em;
+ }
+
+.cta-2 a:hover{
+    background: #ffd700;
+}
+
+#user, .link {
+    padding: 0 0.25em;
+}
+
+ footer {
+    padding:0.75em 3em;
+ }
+
+    footer p {
+        font-family: "Work Sans", Karla, sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    footer span {
+        font-family: "Work Sans", Karla, sans-serif;
+    color: white;
+    }
+
+    footer a {
+        text-decoration: none;
+    }
+    
+    footer a:visited {
+        color: #bbd4d4;
+    }
+
+.map-box {
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+
+.contact {
+ display:flex;
+ justify-content: left;
+ align-items: center;
+}
+
+.contact img {
+    width: 44px;
+    height: 44px;
+}
+
+.info {
+ display:flex;
+ justify-content: left;
+ align-items: center;
+}
+
+.social {
+    padding: 2em;
+    display: flex;
+    justify-content:space-between;
+}
+
+.social img {
+    width: 32px;
+    height: 32px;
+}
+
+.bar {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    padding: .25em 0;
+}
+
+.weatherimage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+picture img{
+    color:rgba(255,255,255,0.6);
+    filter: blur(0em);
+    transition: filter 0.4s;
+}
+
+picture img[data-src]{
+    display: block;
+    filter: blur(0.16em);
+}
+
+.weatherimage p{
+    text-align: center;
+    padding-bottom: 1.75em;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form ul{
+    list-style: none;
+    margin: 0;
+}
+
+form ul li:first-child{
+    padding: 0;
+}
+form fieldset {
+    border: solid 1px #bbd4d4;
+    border-radius: 10px;
+    min-width: 280px;
+    margin: .75em 0;
+    background: white;
+    box-shadow: 0 2px 8px 0 rgba( 187,212,212,0.38 );
+}
+
+form h3{
+    font-family: Poppins, Verdana, sans-serif;
+    text-align: left ;  
+}
+
+.formbox li {
+    padding: .5em 0;
+    margin: 0;
+}
+
+form label {
+    font-family: "Work Sans", Karla, sans-serif;
+    display: block;
+}
+
+.formbox li label input, select{
+    display: block;
+    padding: .75em;
+    margin: .5em 0;
+    border:1px solid rgba(62,62,62, 0.48);
+    border-radius: 6px;
+    box-sizing: border-box; 
+} 
+
+form textarea {
+    display: block;
+    padding: .75em;
+    margin: .5em 0;
+    height: 3em;
+    border-radius:6px;
+    border:1px solid rgba(62,62,62, 0.48);
+}
+
+.formbox li label input:focus, select:focus{
+    border: solid 2px #5054CE;
+    outline: none;
+    border-radius: 6px;
+}
+
+textarea:focus {
+    border-radius: 6px;
+    border: solid 2px #5054CE;
+    outline: none;
+}
+
+.mandentory {
+    color: #ED6A5E;
+}
+
+
+.sbs li label {
+    padding: .5em 0;
+}
+
+.sbs li label input {
+    margin:0.25em;
+}
+.sbs li label input:after {
+    color: #5054CE;
+}
+
+.sendbtn {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2em 0;
+}
+
+input.send  {
+    background:#ffdf33;
+    border: solid 1px #ffd700;
+    border-radius: 50px;
+    padding: 0.75em 1.75em;
+    max-width: 100%;
+    outline: none;
+}
+
+ input.send:hover {
+    background:#ffd700;
+}
+
+.level {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+}
+
+#severity {
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.thanks {
+    margin: 2em;
+}
