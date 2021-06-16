@@ -138,16 +138,13 @@ main {
         margin: 1.75em;
     }
 
-    .town {
-        display: flex;
-        justify-content: space-between;
-    }
     .townname h2 {
         padding: .25em 0;
     }
 
     .statics p{
-        margin: .25em;  
+        margin: .25em; 
+        font-size: 0.8em; 
     }
 
 

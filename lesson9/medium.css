@@ -98,6 +98,10 @@ main {
             align-items: center;
         }
 
+        .statics{
+            font-size: 1em; 
+        }
+        
     .report {
         position: relative;
     }
