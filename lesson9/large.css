@@ -51,7 +51,7 @@
     .statics{
         font-size: 1em; 
     }
-    
+
 .gallery {
    display: grid;
    grid-template-columns: repeat(3, 1fr);

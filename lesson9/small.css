@@ -198,7 +198,20 @@ nav {
         text-decoration: none;
     }
 
-    
+.calender h2 {
+    margin-top: 1.75em;
+}
+
+    .major {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        grid-gap: .75em;
+        padding: 0.38em 2%;
+    }
+
+
 nav ul li.active {
     background:#ffdf33;
     color: white;
