@@ -111,20 +111,45 @@ main {
 
 .cta:hover {
     color: #3e3e3e;
-    background:#ffe981;
+    background:hsl(50, 100%, 75%);
 }
 
-.home {
-    margin: 2em;
-}
+    .plate {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+    }
 
-.card {
-background: rgba(255,255,255,0.6);
-}
+    .card:nth-child(2){
+        grid-row: 3/4;
+    }
+    .card:first-child{
+        grid-row: 2/3;
+    }
+    .card:last-child {
+        grid-row: 1/2;
+    }
+    .card {
+        margin: 1em 0;
+        border: solid 1px rgba(62,62,62, 0.25);
+        background: rgba(255,255,255,0.6);
+    }
 
-.statics {
-    background: rgba(255,255,255,0.6);
-}
+    .card section {
+        margin: 1.75em;
+    }
+
+    .town {
+        display: flex;
+        justify-content: space-between;
+    }
+    .townname h2 {
+        padding: .25em 0;
+    }
+
+    .statics p{
+        margin: .25em;  
+    }
+
 
 h2 {
     color:#3e3e3e;

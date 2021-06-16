@@ -21,6 +21,33 @@
     }
    
 
+    .plate {
+        display: flex;
+        justify-content: space-evenly;
+        grid-gap: 1.75em;
+      }
+
+    .card {
+        display: block;
+        border-radius: none;
+    }
+
+    .card:nth-child(odd){
+        border-radius:0px;
+    }
+
+    .card:nth-child(even){
+        border-radius: 0px;
+    }
+
+    .card:hover{
+        box-shadow: 0 2px 8px 0 rgba(62,62,62, 0.18);
+    }
+
+    .town {
+        display: block;
+    }
+
 .gallery {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
@@ -40,7 +67,8 @@
     box-shadow: 0 2px 8px 0 rgba(62,62,62, 0.18);
     margin-top: -2px;
 }
-picture img:hover{
+
+.weatherimage picture img:hover{
     margin-top: -2px;
 }
 

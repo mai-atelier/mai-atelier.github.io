@@ -35,39 +35,63 @@ hambutton.addEventListener('click', () => {menu.classList.toggle('responsive')},
 /*JSON Town infomation*/
 const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json"
 
-fetch(requestURL) 
+fetch (requestURL) 
 .then (function (response){
     return response.json();
 })
 
 .then(function(jsonObject){
     const towns = jsonObject['towns'];
-
-        if (i = 0){
-   let town = document.createElement('section');
+    for (let i = 0; i<towns.length; i++){
+        if (i%2 == 0 && i!=4){
+    
+    let card = document.createElement('div');
+    let div = document.createElement('div');
+   let name = document.createElement('section');
    let h2 = document.createElement('h2');
    let p = document.createElement('p');
-
-   h2.textContent = towns[i].name;
-   h3.textContent = towns[i].motto;
-
-   town.appendChild(h2);
-   town.appendChild(p);
-
-   let card = document.createElement('section');
+   let statics = document.createElement('section');
    let p1 = document.createElement('p');
    let p2 = document.createElement('p');
    let p3 = document.createElement('p');
+            
+   h2.textContent = towns[i].name;
+   p.textContent = towns[i].motto;
    p1.textContent = 'Year Found: ' +towns[i].yearFounded;
    p2.textContent = 'Population: ' +towns[i].currentPopulation;
    p3.textContent = 'Rain Fall: ' +towns[i].averageRainfall;
 
-   card.append(p1,p2,p3);
+   name.appendChild(h2);
+   name.appendChild(p);
+   statics.append(p1,p2,p3);
+   div.append(name, statics);
+   card.appendChild(div);
+   document.querySelector('div.plate').appendChild(card);
+   card.className = 'card';
+   name.className = 'townname';
+   statics.className = 'statics';
+   div.className = 'town';
+            
+            if (i==6){
+                let pic1 = document.querySelector('.hero1');
+                card.insertBefore(pic1, div);
+            }
+    
+            else if (i==2){
+                let pic2 = document.querySelector('.hero2');
+                card. insertBefore(pic2, div);
+            }
 
-   document.querySelector('.home').appendChild(town);
-   document.querySelector('.statics').appendChild(card);
+            else if (i==0){
+                let pic3 = document.querySelector('.hero3');
+                card. insertBefore(pic3, div);
+
+            }
+
+    }
+
 }
-})
+});
 
 /* footer */
 document.getElementById('year').innerHTML = now.getFullYear();
@@ -84,7 +108,7 @@ const loadImages = (image) =>{
 
 const options = {
     rootMargin: "15px" ,
-    threshold: 0
+    threshold: 1
 };
 
 const observer = new IntersectionObserver((entries,options)=>{
