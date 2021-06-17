@@ -59,6 +59,8 @@
         background:rgba(255,255,255,0.6);
     }
 
+   nav {margin-top: 1.75em;
+} 
 main {
     padding: 1.75em;
     padding-bottom: 7em;
@@ -75,7 +77,8 @@ main {
 
     .card {
         display: flex;
-       
+        align-items: center;
+        margin: 2em 0;
     }
 
         .card:first-child{
@@ -92,16 +95,10 @@ main {
             border-radius: 20px 0px 0px 20px;
         }
 
-        .town {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
         .statics{
             font-size: 1em; 
         }
-        
+
     .report {
         position: relative;
     }
