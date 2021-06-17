@@ -419,6 +419,7 @@ picture img{
     color:rgba(255,255,255,0.6);
     filter: blur(0em);
     transition: filter 0.4s;
+    margin-top: 50px;
 }
 
 picture img[data-src]{
