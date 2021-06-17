@@ -15,7 +15,7 @@ if (now.getDay() == 5){
     middle.innerHTML = ' Preston Pancakes ';
     end.innerHTML ='in the Park! 🥞'; 
    
-    info.innerHTML = '9:00 a.m. Saturday at the city park pavilion.';
+    info.innerHTML = '9:00 a.m. Saturday at the city park pavilion. ';
     button.innerHTML = 'Check Now';
 
     pancake.style.display = 'block';
