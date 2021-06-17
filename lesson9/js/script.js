@@ -125,8 +125,8 @@ const loadImages = (image) =>{
 };
 
 const options = {
-    rootMargin: "50px" ,
-    threshold: 0
+    rootMargin: "20px" ,
+    threshold: 1
 };
 
 const observer = new IntersectionObserver((entries,options)=>{
