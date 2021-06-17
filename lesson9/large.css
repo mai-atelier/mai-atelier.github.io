@@ -30,6 +30,7 @@
     .card {
         display: block;
         border-radius: 0px;
+        width: 320px;
     }
 
     .card:nth-child(odd){
