@@ -54,18 +54,17 @@ main {
     background: #ffffff;
 }
 
+picture img[data-src]{
+    display: block;
+    filter: blur(0.16em);
+}
+
 
 picture img{
     color:rgba(255,255,255,0.6);
     filter: blur(0em);
     transition: filter 0.38s;
 }
-
-picture img[data-src]{
-    display: block;
-    filter: blur(0.16em);
-}
-
 
 .notification{
     padding: 1em 2%;
