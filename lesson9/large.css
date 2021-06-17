@@ -31,7 +31,8 @@
     .card {
         display: block;
         border-radius: 0px;
-        max-width: 320px;
+        width: 320px;
+        min-height: 310px;
     }
 
     .card:nth-child(odd){
