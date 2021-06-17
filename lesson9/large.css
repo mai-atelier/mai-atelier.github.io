@@ -29,7 +29,7 @@
 
     .card {
         display: block;
-        border-radius: none;
+        border-radius: 0px;
     }
 
     .card:nth-child(odd){
