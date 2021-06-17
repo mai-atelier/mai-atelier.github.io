@@ -73,8 +73,6 @@ main {
     main h3 {
         padding: 1em 0;
     }
-
-
     .card {
         display: flex;
         align-items: center;
