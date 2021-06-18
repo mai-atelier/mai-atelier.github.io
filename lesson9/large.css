@@ -24,14 +24,13 @@
     .plate {
         display: flex;
         justify-content: space-evenly;
-        align-items: top;
         grid-gap: 1.75em;
       }
 
     .card {
         display: block;
         border-radius: 0px;
-        width: 320px;
+        width: 100%;
         min-height: 310px;
     }
 
