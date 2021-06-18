@@ -192,37 +192,26 @@ picture img{
         grid-gap: .5em;
         padding: 2em 2%;
     }
-
-        .fest {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-        }
     
         .fest img{
             display: block;
            margin-bottom: 1em;
         }
 
-        .cartegory {
-            display: block;
-            padding: .75em;
-        }
-
-    .tag {
+        .tag {
     font-family: "Work Sans", Karla, sans-serif;
     font-size: 0.8em;
     text-align: center;
     color: rgba(62,62,62, 0.8);
-    background-color: rgba( 187,212,212,0.38 );
-    border: solid 1.2px rgba( 187,212,212,0.8 );
+    background-color: rgba( 187,212,212,0.18 );
+    border: solid 1.2px rgba( 187,212,212);
     border-radius: 50px;
-    padding: .5em;
-    width: 50px;
-    }
+    padding: .12em 2%;
+        }
 
-h2 {
+
+
+main h2{
     color:#3e3e3e;
 }
 

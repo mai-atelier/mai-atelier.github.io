@@ -95,6 +95,16 @@ main {
             border-radius: 20px 0px 0px 20px;
         }
 
+        .cartegory {
+            display: flex;
+            padding: .75em;
+        }
+
+    .tag {
+    padding: .5em;
+    margin: .25em;
+    width: 50px;
+    }
 
     .report {
         position: relative;
