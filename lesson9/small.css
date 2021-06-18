@@ -128,6 +128,8 @@ picture img{
     .plate {
         display: grid;
         grid-template-rows: repeat(3, 1fr);
+        grid-gap: 1em;
+        margin: 0;
     }
 
     .card:nth-child(2){
@@ -139,10 +141,16 @@ picture img{
     .card:last-child {
         grid-row: 1/2;
     }
+
     .card {
-        margin: 1em 0;
+        display: block;
         border: solid 1px rgba(62,62,62, 0.25);
         background: rgba(255,255,255,0.6);
+        margin: 0;
+    }
+    
+    .town {
+        display: block;
     }
 
     .card section {
@@ -150,7 +158,7 @@ picture img{
     }
 
     .townname h2 {
-        padding: .25em 0;
+        padding: .38em 0;
     }
 
     .statics p{

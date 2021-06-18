@@ -73,10 +73,12 @@ main {
     main h3 {
         padding: 1em 0;
     }
+
+
+    
     .card {
         display: flex;
         align-items: center;
-        margin: 2em 0;
     }
 
         .card:first-child{
@@ -93,9 +95,6 @@ main {
             border-radius: 20px 0px 0px 20px;
         }
 
-        .statics{
-            font-size: 1em; 
-        }
 
     .report {
         position: relative;

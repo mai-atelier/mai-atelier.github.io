@@ -21,17 +21,19 @@
     }
    
 
-    .plate {
-        display: flex;
-        justify-content: space-evenly;
-        grid-gap: 1.75em;
+.plate {
+    display: flex;
+    justify-content: space-evenly;
+    grid-gap: 1.75em;
+    margin: 0;
       }
 
     .card {
         display: block;
         border-radius: 0px;
-        width: 100%;
         min-height: 310px;
+        margin: 0;
+        width: 100%;
     }
 
     .card:nth-child(odd){
@@ -46,13 +48,7 @@
         box-shadow: 0 2px 8px 0 rgba(62,62,62, 0.18);
     }
 
-    .town {
-        display: block;
-    }
-
-    .statics{
-        font-size: 1em; 
-    }
+   
 
 .gallery {
    display: grid;
