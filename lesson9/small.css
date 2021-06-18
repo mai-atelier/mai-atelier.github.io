@@ -149,6 +149,11 @@ picture img{
         margin: 0;
     }
 
+    .left {
+        text-align: left;
+        padding: .38em 0;
+    }
+
     .town {
         display: block;
     }
@@ -157,37 +162,51 @@ picture img{
         margin: 1.75em;
     }
 
-    .townname h2 {
-        padding: .38em 0;
-    }
-
     .statics p{
         margin: .5em; 
         font-size: 0.8em; 
+        text-align: left;
+        padding: 0;
     }
 
 
     .calender h2 {
-        margin-top: 1.75em;
+        margin-top: 2em;
+    }
+
+    .calender {
+        margin: 2em 0;
+    }
+
+    .calender p {
+        padding:0 2%;
+    }
+
+    .center{
+        text-align: center;
     }
     
-        .major {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            grid-gap: .5em;
-            padding: 0.38em 2%;
-        }
+    .major {
+        display: grid;
+       grid-template-columns: repeat(3, 1fr);
+        grid-gap: .5em;
+        padding: 2em 2%;
+    }
 
         .fest {
-            max-width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: left;
         }
     
         .fest img{
-            margin: 1em 0;
+            display: block;
+           margin-bottom: 1em;
         }
 
         .cartegory {
+            display: block;
             padding: .75em;
         }
 
@@ -199,7 +218,8 @@ picture img{
     background-color: rgba( 187,212,212,0.38 );
     border: solid 1.2px rgba( 187,212,212,0.8 );
     border-radius: 50px;
-    padding: .75em 1em;
+    padding: .5em;
+    width: 50px;
     }
 
 h2 {

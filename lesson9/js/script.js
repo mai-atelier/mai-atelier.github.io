@@ -67,8 +67,9 @@ fetch (requestURL)
    div.append(name, statics);
    card.appendChild(div);
    document.querySelector('div.plate').appendChild(card);
+   h2.className = 'left';
+   p.className = 'left';
    card.className = 'card';
-   name.className = 'townname';
    statics.className = 'statics';
    div.className = 'town';
             

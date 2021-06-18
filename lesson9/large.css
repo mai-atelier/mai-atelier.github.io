@@ -20,7 +20,7 @@
         padding: .6em 1em;
     }
    
-
+    
 .plate {
     display: flex;
     justify-content: space-evenly;
@@ -48,17 +48,9 @@
         box-shadow: 0 2px 8px 0 rgba(62,62,62, 0.18);
     }
 
-    .calender {
-        margin: 2em 0;
+    .tag {
+        padding: .75em 1em;
     }
-
-    .calender h2, p {
-        text-align: center;
-    }
-    .calender p {
-        padding-bottom: 2em;
-    }
-
     
 
 .gallery {
