@@ -51,10 +51,15 @@
     .calender {
         margin: 2em 0;
     }
-    
+
     .calender h2, p {
         text-align: center;
     }
+    .calender p {
+        padding-bottom: 2em;
+    }
+
+    
 
 .gallery {
    display: grid;

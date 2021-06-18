@@ -148,7 +148,7 @@ picture img{
         background: rgba(255,255,255,0.6);
         margin: 0;
     }
-    
+
     .town {
         display: block;
     }
@@ -162,10 +162,45 @@ picture img{
     }
 
     .statics p{
-        margin: .25em; 
+        margin: .5em; 
         font-size: 0.8em; 
     }
 
+
+    .calender h2 {
+        margin-top: 1.75em;
+    }
+    
+        .major {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            grid-gap: .5em;
+            padding: 0.38em 2%;
+        }
+
+        .fest {
+            max-width: 300px;
+        }
+    
+        .fest img{
+            margin: 1em 0;
+        }
+
+        .cartegory {
+            padding: .75em;
+        }
+
+    .tag {
+    font-family: "Work Sans", Karla, sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    color: rgba(62,62,62, 0.8);
+    background-color: rgba( 187,212,212,0.38 );
+    border: solid 1.2px rgba( 187,212,212,0.8 );
+    border-radius: 50px;
+    padding: .75em 1em;
+    }
 
 h2 {
     color:#3e3e3e;
@@ -214,18 +249,6 @@ nav {
 
     .responsive a{
         text-decoration: none;
-    }
-
-.calender h2 {
-    margin-top: 1.75em;
-}
-
-    .major {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        grid-gap: .75em;
-        padding: 0.38em 2%;
     }
 
 
