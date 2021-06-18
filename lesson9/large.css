@@ -48,7 +48,13 @@
         box-shadow: 0 2px 8px 0 rgba(62,62,62, 0.18);
     }
 
-   
+    .calender {
+        margin: 2em 0;
+    }
+    
+    .calender h2, p {
+        text-align: center;
+    }
 
 .gallery {
    display: grid;
