@@ -126,13 +126,13 @@ picture img{
 }
 
     .plate {
-        display: grid;
         grid-template-rows: repeat(3, 1fr);
         grid-gap: 1em;
         margin: 0;
     }
 
     .card:nth-child(2){
+
         grid-row: 3/4;
     }
     .card:first-child{

@@ -98,7 +98,6 @@ fetch (requestURL)
 document.getElementById('year').innerHTML = now.getFullYear();
 document.getElementById('date').innerHTML = new Intl.DateTimeFormat("en-US",{ dateStyle:"full"}).format(now);
    
-/* gallery page */
 /* lazy loading */
 const images = document.querySelectorAll('img[data-src]');
 

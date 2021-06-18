@@ -22,8 +22,9 @@
    
     
 .plate {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 1.75em;
     margin: 0;
       }
@@ -36,11 +37,22 @@
         width: 100%;
     }
 
-    .card:nth-child(odd){
-        border-radius:0px;
+    .card:first-child{
+        grid-row: 1/1;
+        grid-column: 2/3;
+        border-radius: 0px;
     }
 
     .card:nth-child(even){
+        grid-row: 1/1;
+        grid-column: 3/4;
+        border-radius: 0px;
+       
+    }
+
+    .card:last-child{
+        grid-row: 1/1;
+        grid-column: 1/2;
         border-radius: 0px;
     }
 
