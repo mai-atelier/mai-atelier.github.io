@@ -79,6 +79,7 @@ main {
     .card {
         display: flex;
         align-items: center;
+        margin: 2em;
     }
 
         .card:first-child{
@@ -86,7 +87,6 @@ main {
         }
 
         .card:last-child{
-            flex-direction: row-reverse;
             border-radius: 20px 0px 0px 20px;
         }
 
