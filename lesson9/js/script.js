@@ -74,17 +74,17 @@ fetch (requestURL)
    div.className = 'town';
             
             if (i==6){
-                let pic1 = document.querySelector('.hero1');
+                let pic1 = document.querySelector('.town1');
                 card.insertBefore(pic1, div);
             }
     
             else if (i==2){
-                let pic2 = document.querySelector('.hero2');
+                let pic2 = document.querySelector('.town2');
                 card. insertBefore(pic2, div);
             }
 
             else if (i==0){
-                let pic3 = document.querySelector('.hero3');
+                let pic3 = document.querySelector('.town3');
                 card. insertBefore(pic3, div);
 
             }

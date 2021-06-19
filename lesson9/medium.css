@@ -82,12 +82,8 @@ main {
         margin: 2em;
     }
 
-        .card:first-child{
+        .card:nth-child(odd){
             border-radius: 0px 20px 20px 0px;
-        }
-
-        .card:last-child{
-            border-radius: 20px 0px 0px 20px;
         }
 
         .card:nth-child(even){

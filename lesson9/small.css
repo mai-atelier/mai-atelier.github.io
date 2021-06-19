@@ -125,6 +125,14 @@ picture img{
     background:hsl(50, 100%, 75%);
 }
 
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
     .plate {
         grid-template-rows: repeat(3, 1fr);
         grid-gap: 1em;
@@ -220,6 +228,7 @@ nav {
     padding: 0.38em 2%;
     background:#bbd4d4;
     text-align: center;
+    border-radius: 4px;
 }
 
 .hide {

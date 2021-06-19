@@ -19,7 +19,6 @@
     nav ul li a {
         padding: .6em 1em;
     }
-   
     
 .plate {
     display: grid;
@@ -27,6 +26,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1.75em;
     margin: 0;
+    padding: 2em;
       }
 
     .card {
