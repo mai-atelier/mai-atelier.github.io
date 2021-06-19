@@ -193,17 +193,10 @@ picture img{
     .center{
         text-align: center;
     }
-    
-    .major {
-        display: grid;
-       grid-template-columns: repeat(3, 1fr);
-        grid-gap: .5em;
-        padding: 2em 2%;
-    }
-    
+   
         .fest img{
             display: block;
-           margin-bottom: 1em;
+           margin: 1em auto;
         }
 
         .tag {

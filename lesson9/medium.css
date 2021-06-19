@@ -96,6 +96,13 @@ main {
             padding: .75em;
         }
 
+        .major {
+            display: grid;
+           grid-template-columns: repeat(3, 1fr);
+            grid-gap: .5em;
+            padding: 2em 2%;
+        }
+        
     .tag {
     padding: .5em;
     margin: .25em;
