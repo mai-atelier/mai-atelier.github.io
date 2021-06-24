@@ -1,0 +1,102 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+    body {
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .weather img{
+        max-width: 100%;
+        margin: 0 2%;
+    }
+
+    .event-box {
+        padding: 0.38em 1.58%;
+        grid-column: 2/3;
+     }
+
+    nav ul li a {
+        padding: .6em 1em;
+    }
+    
+.plate {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.75em;
+    margin: 0;
+    padding: 2em;
+      }
+
+    .card {
+        display: block;
+        border-radius: 0px;
+        min-height: 310px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .card:first-child{
+        grid-row: 1/1;
+        grid-column: 2/3;
+        border-radius: 0px;
+    }
+
+    .card:nth-child(even){
+        grid-row: 1/1;
+        grid-column: 3/4;
+        border-radius: 0px;
+       
+    }
+
+    .card:last-child{
+        grid-row: 1/1;
+        grid-column: 1/2;
+        border-radius: 0px;
+    }
+
+    .card:hover{
+        box-shadow: 0 2px 8px 0 rgba(62,62,62, 0.18);
+    }
+
+    .tag {
+        padding: .75em 1em;
+    }
+    
+
+.gallery {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 1.75em;
+}  
+
+.weatherimage {
+   margin: 0;
+   border: solid 1px rgba(62,62,62, 0.25);
+}
+
+.weatherimage p {
+    padding: .75em 0;
+}
+
+.weatherimage:hover{
+    box-shadow: 0 2px 8px 0 rgba(62,62,62, 0.18);
+    margin-top: -2px;
+}
+
+.weatherimage picture img:hover{
+    margin-top: -2px;
+}
+
+
+form fieldset ul { 
+    padding: .5em;
+}
+
+.sendbtn input{
+    width: 260px;
+    padding: 1em;
+}
+
+} /*end large */
