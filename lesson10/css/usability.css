@@ -7,7 +7,6 @@ header{
     align-items: center;
     justify-content: center;
 }
-
 header img {
     padding: 2em;
 }
@@ -42,7 +41,7 @@ ul {
 }
 
 li+li {
-    margin: 0.38em;
+    margin: 0.38em 0;
 }
 
 li a:visited {
@@ -51,10 +50,10 @@ li a:visited {
 h1, h2 {
     font-family: "Poppins", sans-serif;
 }
-
 .center {
     text-align: center;
 }
+
 main {
     padding: 2%;
 }
@@ -67,14 +66,21 @@ main ol li {
     padding-left:.38em;
 }
 
+
+
 .bt a{
-    border-radius: 50px;
-    background: #F8C48C;
     text-decoration: none;
-    color: #3e3e3e;
+    background: black;
+    color: white;
     padding: 0.75em 1.75em;
+    border-radius: 50px;
  }
 
-.bt a:hover{
+ .bt a:hover{
     background:#F6CFD2;
-}
+    color: black;
+ }
+
+ main p {
+     padding-top: 1.75em;
+ }
