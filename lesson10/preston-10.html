@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Mai Manago">
+        <meta name="description" content="Preston town page">
+        <link rel="shortcut icon" href="cloudshouselogo.ico">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+
+        <title>Clouds House | Town | Preston </title>
+    </head>
+    <body>
+        
+        <header>
+            
+            <div class="notification">
+            <div class="event-box">
+                <p class="pancake">
+                    <span class="start"></span>
+                    <span class="highlight"></span>
+                    <span class="end"></span>
+                </p>
+                <p class="event-info"></p>
+            </div>
+            <div class="cta-box action">
+                <a class="cta"></a>
+            </div>
+             </div>
+   
+            <div class="brand">
+            <div class= "logo-box">
+            <img src="images/cloudshouselogo.png" alt = "clouds house logo">
+            </div>
+            <h1>Clouds House</h1>
+                        <p>Enhance your life today.</p>
+            </div>
+        </header>
+            <nav>
+                <ul class="hide">
+                <li><a class="drop">&#9776;</a></li> 
+                    <li > <a href="">Home</a> </li>
+                    <li class="active"> <a href="preston-10.html">Preston</a> </li>
+                    <li> <a href="">Soda Springs</a> </li>
+                    <li> <a href="">Fish Haven</a> </li>
+                    <li> <a href="">Storm Center</a> </li>
+                    <li> <a href="">Gallery</a> </li>
+                </ul>
+            </nav>
+    <main>
+        <h2 class="town">Preston Idaho </h2>
+        <div class="report">
+        <picture>
+            <source srcset="images/hero-large.jpeg" media ="(min-width:800px)"> 
+                <source srcset="images/hero-medium.jpeg" media ="(min-width:600px)">
+                    <source srcset="images/hero-small.jpeg" media ="(min-width:400px)">
+                <img src = "images/hero-resize.jpg" alt = "horses in a field"> 
+        </picture>
+
+        <div class="overlay">
+        <h3 class="subject"> Weather Summary</h3>
+        <div class = "summary-box">
+           <div class= "content">
+            <p class="temprature">
+                <span id="current"></span>°</p>
+            <p class="weather"><span id="condition"></span></p>
+        </div>
+            <ul class="condition">
+            <li><p class="label">Feel like: 
+                <span id="chill"></span>&#8457;</p></li>
+            <li><p class="label">Precipitation:<span> 4%</span></p></li>
+            <li><p class="label">Humidity:<span> 36%</span></p></li>
+            <li><p class="label">Wind: 
+                <span id="wind"> 4</span> m/s</p></li>
+        </ul>
+    </div> 
+</div> 
+    </div>
+    <h3 class="subject">Five Day Forecast</h3> 
+    <div class="fivedays">
+    
+        <div class="forecast">
+       <ul>
+           <li>Mon 16
+               <img src="images/5.png" alt="cloudy">
+               <a class="highest">68°</a>/<a class="lowest">39°</a></li>
+           <li>Tue 17
+               <img src="images/4.png" alt="partly sunny">
+               <a class="highest">70°</a>/<a class="lowest">42°</a></li>
+           <li>Wed 18
+               <img src="images/4.png" alt="partly sunny">
+               <a class="highest">68°</a>/<a class="lowest">43°</a></li>
+           <li>Thu 19 
+               <img src="images/5.png" alt="cloudy"><a class="highest">69°</a>/<a class="lowest">39°</a></li>
+           <li>Fri 20
+               <img src="images/4.png" alt="partly sunny"><a class="highest">70°</a>/<a class="lowest">45°</a></li>
+        </ul>     
+    </div>
+    </div> 
+    <div class="news">
+       <picture>
+        <img class="" src = "images/stargaze.jpeg" alt = "a sky full of stars">
+    </picture>
+        <h3 class="subject">New Resort Opening </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente vitae hic, numquam dolorum laudantium eaque officia qui. Minus possimus cupiditate libero illo, corrupti optio distinctio, impedit error quisquam maiores accusantium.</p>
+       <div class="cta-2"><a> Read More</a></div> 
+    </div>
+    </main>
+    <footer>
+        <div class= "contact-box">
+        <div class= "contact">
+    <section>
+        <h3>Contact Information</h3>
+        <div class ="info"><img src = "images/mail.png" alt = "message icon"><p>cloudshouse.co</p></div>
+        <div class ="info"><img src = "images/phone.png" alt = "phone icon"><p>xxxxxxxx</p></div>
+            <div class ="info"><img src = "images/map.png" alt = "map icon"><p>Preston, Idaho, US</p></div>
+
+    <div class="social">
+        <img src = "images/f.jpg" alt = "Facebook icon">
+        <img src = "images/i.jpg" alt = "Instagram icon">
+        <img src = "images/p.jpg" alt = "Pinterest icon">
+    </div>
+</section>
+    </div>
+
+
+    <div class="map-box">   
+    <img class="map" src = "images/map.jpg" alt = "Preston map">
+</div>
+</div>
+
+    <div class ="bar">
+        <p>
+            &copy;&nbsp;<span id="year"></span> Clouds House | WDD230 Mai Manago | <a class="link" href="" target="_blank">Terms of Use</a><br>
+           <span id="date"></span> </p>
+        </div>
+    </footer>
+    <script defer src = "js/preston-6.js"></script>
+    <script defer src="js/windchill.js"></script>
+    <script defer src="js/weatherapi.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({
+        google: {
+          families: [
+             'Poppins', 'Work Sans'
+          ]
+        }
+      });</script>
+    </body>
+</html>

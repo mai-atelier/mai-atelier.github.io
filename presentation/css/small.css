@@ -1,0 +1,16 @@
+main {
+    position: relative;
+
+}
+
+img hover {
+    filter: blur(0.4px);
+}
+.circle{
+	position: absolute;
+  border: solid 3px rgb(149, 223, 248);
+	width: 80px; 
+	height: 80px; 
+  border-radius: 50%;
+
+}
