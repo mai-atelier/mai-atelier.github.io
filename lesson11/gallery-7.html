@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Mai Manago">
+        <meta name="description" content="The gallery page">
+        <link rel="shortcut icon" href="cloudshouselogo.ico">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+       <link rel="stylesheet" href="small.css">
+        <link rel="stylesheet" href="medium.css">
+        <link rel="stylesheet" href="large.css">
+
+       <title>Clouds House | Gallery | Weather Photo</title>
+    </head>
+    <body>
+    <header>
+            <div class="notification">
+                <div class="event-box">
+                    <p class="pancake">
+                        <span class="start"></span>
+                        <span class="highlight"></span>
+                        <span class="end"></span>
+                    </p>
+                    <p class="event-info"></p>
+                </div>
+                <div class="cta-box action">
+                    <a class="cta"></a>
+                </div>
+                 </div> 
+
+        <div class="brand">
+        <div class= "logo-box">
+            <a href="index.html"><img src="images/cloudshouselogo.png" alt = "clouds house logo"></a>
+        </div>
+        <h1>Clouds House</h1>
+                    <p>Enhance your life today.</p>
+        </div>
+    </header>
+        <nav>
+            <ul class="hide">
+            <li><a class="drop">&#9776;</a></li> 
+                <li > <a href="index.html"> Home</a> </li>
+                <li > <a href="preston-10.html">Preston</a> </li>
+                <li> <a href="sodasprings.html">Soda Springs</a> </li>
+                <li> <a href="fishhaven.html">Fish Haven</a> </li>
+                <li> <a href="stormcenter.html">Storm Center</a> </li>
+                <li class="active"> <a href="gallery-7.html">Gallery</a> </li>
+            </ul>
+        </nav>
+       
+<main>
+        <h2>Weather Image Gallery</h2>
+        
+        <div class="gallery">
+            <div class="weatherimage">
+        <picture>
+            <source srcset="images/snow.400.jpg" media="(min-width:700px)">
+            <img src="images/replace.PNG" 
+            data-src="images/snow.jpg" alt="fresh powder snow covering the trees">
+        </picture>
+         <p> Fresh powder snow </p>
+        </div>
+        <div class="weatherimage">
+        <picture>
+            <source srcset="images/rainbow.400.jpg" media="(min-width:700px)">
+            <img src="images/replace.PNG" data-src="images/rainbow.jpg" alt="rainbow edge">
+        </picture>
+        <p> Beginning of the rainbow </p>
+        </div>
+   
+        <div class="weatherimage">
+        <picture>
+            <source srcset="images/fog.400.jpg" media="(min-width:700px)">
+            <img src="images/replace.PNG" data-src="images/fog.jpg" alt="foggy early morning sunrise">
+        </picture>
+        <p>Sunrise in the early morning </p>
+        </div>
+
+        <div class="weatherimage">
+        <picture>
+            <source srcset="images/clouds.400.jpg" media="(min-width:700px)">
+            <img src="images/replace.PNG" data-src="images/clouds.jpg" alt="Cotton clouds cover the mountain">
+        </picture>
+            <p> Clouds cover the mountain </p>
+       </div>
+
+       <div class="weatherimage">
+        <picture>
+            <source srcset="images/lightning.400.jpg" media="(min-width:700px)">
+            <img src="images/replace.PNG" data-src="images/lightning.jpg" alt="Lightning strikes in the field">
+        </picture>
+           <p> Lightning strikes in the field </p>
+        </div>
+
+        <div class="weatherimage">
+        <picture>
+            <source srcset="images/flowerdrop.400.jpg" media="(min-width:700px)">
+            <img src="images/replace.PNG" data-src="images/flowerdrop.jpg" alt="Flower dew on margaret after the rain">
+        </picture>
+            <p> Flower drops after raining </p>
+       </div>
+
+       <div class="weatherimage">
+        <picture>
+            <source srcset="images/haze.400.jpg" media="(min-width:700px)">
+            <img src="images/replace.PNG" data-src="images/haze.jpg" alt="Hazy sunshine over the forest">
+        </picture>   
+            <p> Hazy sunshine over the forest</p>
+        </div>
+
+        <div class="weatherimage">
+        <picture>
+            <source srcset="images/milkyway.400.jpg" media="(min-width:700px)">
+            <img src="images/replace.PNG" data-src="images/milkyway.jpg" alt="Star night over the trees">
+        </picture>
+        <p> Milky way over the trees </p>
+        </div>
+        
+        <div class="weatherimage">
+        <picture>
+            <source srcset="images/supermoon.400.jpg" media="(min-width:700px)">
+            <img src="images/replace.PNG" data-src="images/supermoon.jpg" alt="Full moon in the clear sky">
+        </picture> 
+        <p> Full moon in the clear sky </p>
+        </div>
+    </div>
+    </main>
+    <footer>
+    <div>
+        <p class ="bar"> You visited  <span id="user"> </span>  days ago!</p> 
+        <p class ="bar">
+            &copy;&nbsp;<span id="year"></span> Clouds House | WDD230 Mai Manago | <a class="link" href="" target="_blank">Terms of Use</a></p>
+          <p class ="bar"><span id="date"></span> </p>
+        </div>
+    </footer>
+    <script src="js/gallery.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+          families: [
+             'Poppins', 'Work Sans'
+          ]
+        }
+      });
+      </script>
+        </body>
+        </html>

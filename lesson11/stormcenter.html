@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Mai Manago">
+        <meta name="description" content="Sending storm notification form">
+        <link rel="shortcut icon" href="cloudshouselogo.ico">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="small.css">
+        <link rel="stylesheet" href="medium.css">
+        <link rel="stylesheet" href="large.css">
+
+        <title>Clouds House | Storm Center | Report </title>
+    </head>
+    <body>
+        
+        <header>
+            
+            <div class="notification">
+            <div class="event-box">
+                <p class="pancake">
+                    <span class="start"></span>
+                    <span class="highlight"></span>
+                    <span class="end"></span>
+                </p>
+                <p class="event-info"></p>
+            </div>
+            <div class="cta-box action">
+                <a class="cta"></a>
+            </div>
+             </div>
+   
+            <div class="brand">
+            <div class= "logo-box">
+                <a href="index.html"><img src="images/cloudshouselogo.png" alt = "clouds house logo"></a>
+            </div>
+            <h1>Clouds House</h1>
+                        <p>Enhance your life today.</p>
+            </div>
+        </header>
+            <nav>
+                <ul class="hide">
+                <li><a class="drop">&#9776;</a></li> 
+                    <li > <a href="index.html"> Home</a> </li>
+                    <li> <a href="preston-10.html"> Preston</a> </li>
+                    <li> <a href="sodasprings.html"> Soda Springs</a> </li>
+                    <li> <a href="fishhaven.html"> Fish Haven</a> </li>
+                    <li  class="active"> <a href="stormcenter.html">Storm Center</a> </li>
+                    <li> <a href="gallery-7.html">Gallery</a> </li>
+                </ul>
+            </nav>
+    <main>
+        <h2 class="town"> Storm Notification Form </h2>
+        <form method="GET" action="thanks.html">
+          <div class="form">
+        <fieldset>
+            <ul class="formbox">
+                <li>
+                <h3>Personal Information</h3>
+            </li> 
+                
+                    <li>
+                <label for="name"> Full name <span class="mandentory">*</span>
+                <input type="text" id="name" name="name" required minlength="5" pattern="[A-Za-z">
+                </label>
+            </li>
+            <li>
+                <label for="email">Email
+                <input type="email" id="email" name="email" placeholder="example@email.com">
+                </label>
+            </li>
+            <li>
+                <label for="tel">Phone number <span class="mandentory">*</span>
+                <input type="tel" id="tel" name="tel" required>        
+                </label>
+            </li>
+            <li>
+                <label for="zip">Zipcode <span class="mandentory">*</span>
+                <input type="number" id="zip" name="zip" required>
+                </label>
+            </li>
+        </ul>
+        </fieldset>
+
+        <fieldset>
+            <ul class="formbox">
+            <li>
+  <h3> Storm Information</h3>
+            </li>
+       
+            <li>
+                <label for="stormdate">Storm date
+                <input type="date" id="stormdate" name="stormdate">
+                </label>
+            </li>
+            <li>
+                <label for="storm">Storm type 
+                <input list="storm-type" id="storm" name="storm">
+                
+                <datalist id="storm-type">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist> 
+            </label>
+            </li>
+            <li>
+               
+                <label for="severity">Storm severity 
+                   
+                <input type="range" id="severity" name="severity"
+                value="1" min="0" max="10" step="1"></label>
+                <div class="level">
+                <span>0</span><span>10</span>
+                </div>
+                
+            </li>
+            <li>
+                <label for="region">Storm region
+                <select id="region" name="region">
+                    <option disabled selected>Select region ...</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option> 
+            </select>
+            </label>
+            </li>
+        </ul> 
+    </fieldset>
+
+    <fieldset>
+        <ul class="sbs">
+            <li>
+          <h3> Additional Information</h3>
+            </li>   
+                    <li>
+                <label>Are you in danger?</label>
+                <label><input type="radio" name="answer" value="yes">Yes</label> 
+                <label><input type="radio" name="answer" value="maybe">Maybe</label>
+                <label><input type="radio" name="answer" value="no">No</label>
+            </li>
+
+            <li>
+                <label id="comment">Comments
+                <textarea name="comment"></textarea>
+                </label>
+            </li>       
+    </ul>
+    </fieldset>
+</div>
+
+    <div class="sendbtn">
+        <label>
+                <input type="submit" name="submit" value="Report storm" class="send">
+            </label>
+        </div>
+    </form>
+    </main>
+
+    <footer>
+        <div class= "contact-box">
+        <div class= "contact">
+    <section>
+        <h3>Contact Information</h3>
+        <div class ="info"><img src = "images/mail.png" alt = "message icon"><p>cloudshouse.co</p></div>
+        <div class ="info"><img src = "images/phone.png" alt = "phone icon"><p>xxxxxxxx</p></div>
+            <div class ="info"><img src = "images/map.png" alt = "map icon"><p>Preston, Idaho, US</p></div>
+
+    <div class="social">
+        <img src = "images/f.jpg" alt = "Facebook icon">
+        <img src = "images/i.jpg" alt = "Instagram icon">
+        <img src = "images/p.jpg" alt = "Pinterest icon">
+    </div>
+</section>
+    </div>
+
+
+    <div class="map-box">   
+        <img class="map" src = "images/map.jpg" alt = "Preston map">
+    </div>
+</div>
+
+    <div class ="bar">
+        <p>
+            &copy;&nbsp;<span id="year"></span> Clouds House | WDD230 Mai Manago | <a class="link" href="" target="_blank">Terms of Use</a><br>
+           <span id="date"></span> </p>
+        </div>
+    </footer>
+    <script defer src = "js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({
+        google: {
+          families: [
+             'Poppins', 'Work Sans'
+          ]
+        }
+      });</script>
+    </body>
+</html>
