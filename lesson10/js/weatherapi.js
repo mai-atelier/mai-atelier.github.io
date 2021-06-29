@@ -54,8 +54,6 @@ fetch(forecastURL)
 
         });
 
-
-
 /* windchill calculation*/
 let temp = parseFloat(document.getElementById('current').innerHTML);
 let speed = parseFloat(document.getElementById('wind').innerHTML);
