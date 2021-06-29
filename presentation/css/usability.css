@@ -98,3 +98,7 @@ section {
  footer p {
      text-align: center;
  }
+
+ footer a:visited {
+   color:#F6CFD2;
+ }
