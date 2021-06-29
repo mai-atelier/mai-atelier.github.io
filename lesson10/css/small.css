@@ -330,37 +330,31 @@ nav ul li.active {
     margin-bottom: 6em;
 }
 
-.forecast {
-    background: rgba(255,255,255,0.25);
-    box-shadow: 0 2px 8px 0 rgba( 187,212,212,0.8 );
-    border-radius:  20px;
-    margin: 0 .75em;
-}
 
-    .forecast ul {
-        list-style: none;
+    .dailyweather  {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        background: rgba(255,255,255,0.25);
+        box-shadow: 0 2px 8px 0 rgba( 187,212,212,0.8 );
+        border-radius:  20px;
+        margin: 0 .75em;
+    }
+    
+
+    .forecast {
+        display: block;
+        font-family: "Work Sans", Karla, sans-serif;
+        text-align: center;
+        color:#3e3e3e;
         margin: 0 auto;
         padding: 0.75em;
     }
 
-    .forecast li {
-        display: block;
-        font-family: "Work Sans", Karla, sans-serif;
-        text-align: center;
-        font-size: 0.8em;
-        color:#3e3e3e;
-        padding-top: 2%;
-    }
     .forecast img{
-        max-width: 100%;
+        width: 100px;
         display: block;
-    }
 
-    .lowest {
-       font-size: 0.8em;
     }
 
     .news {
