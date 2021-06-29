@@ -38,7 +38,7 @@ fetch(forecastURL)
 
     const temp = document.createElement('p');
         temp.className = 'hightemp';
-        temp.textContent = `${element.main.temp}°`;  
+        temp.textContent = `${element.main.temp.toFixed(0)}°`;  
          
         console.log(temp);
         const imagesrc = 'https://openweathermap.org/img/w/'+element.weather[0].icon + '.png'; 
