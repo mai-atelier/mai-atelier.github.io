@@ -55,10 +55,10 @@ h1, h2 {
 }
 
 main {
-    padding: 2%;
+    padding:2em 2%;
 }
 main ol {
-    padding: 2em;
+    padding:0 2em 2em 0;
     margin: 0;
 }
 
@@ -66,6 +66,9 @@ main ol li {
     padding-left:.38em;
 }
 
+section {
+    padding:0 2em 4em 2em;
+}
 
 
 .bt a{
@@ -83,4 +86,15 @@ main ol li {
 
  main p {
      padding-top: 1.75em;
+ }
+
+ footer{
+     padding: 2em;
+     background: #3e3e3e;
+     color: white;
+     font-size: 0.8em;
+ }
+
+ footer p {
+     text-align: center;
  }
