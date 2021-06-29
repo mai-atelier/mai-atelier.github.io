@@ -1,5 +1,5 @@
 const cityid = "5585010"
-const apiURL = `http://api.openweathermap.org/data/2.5/weather?${cityid}&appid=8f806e2b6239d7e309c5ca0798079e25&units=imperial`
+const apiURL = `https://api.openweathermap.org/data/2.5/weather?${cityid}&appid=8f806e2b6239d7e309c5ca0798079e25&units=imperial`
 
 fetch(apiURL)
 .then((response)=>response.json())
@@ -12,7 +12,7 @@ fetch(apiURL)
 
 });
 
-const forecastURL = `http://api.openweathermap.org/data/2.5/forecast?${cityid}&appid=8f806e2b6239d7e309c5ca0798079e25&units=imperial`
+const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?${cityid}&appid=8f806e2b6239d7e309c5ca0798079e25&units=imperial`
 fetch(forecastURL)
 .then((response)=>response.json())
 .then((jsObject)=>{ //console.log(jsObject);
