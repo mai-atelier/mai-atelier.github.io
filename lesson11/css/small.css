@@ -139,6 +139,9 @@ picture img{
         margin: 0;
     }
 
+    .plate a {
+        text-decoration: none;
+    }
     .card:nth-child(2){
 
         grid-row: 3/4;

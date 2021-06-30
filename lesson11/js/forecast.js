@@ -71,3 +71,28 @@ return factor = 'N/A';
 }
 
 }
+
+ /*upcoming events*/
+eventURL = "https://byui-cit230.github.io/weather/data/towndata.json"
+fetch(eventURL)
+.then((response)=>response.json())
+.then((jsonObject)=>{console.log()
+    
+const towns = jsonObject.towns[6];
+
+            let calender = document.createElement('section');
+            let event1 = document.createElement('div');
+            let item1 = document.createElement('p');
+            let event2 = document.createElement('div');
+            let item2 = document.createElement('p');
+            event1.appendChild(item1);
+            event2.appendChild(item2);
+
+            event1.className = 'event1';
+            event2.className = 'event2';
+            item1.textContent = towns.events[1];
+            item2.textContent = towns.events[2];
+            calender.append(event1, event2);
+            document.querySelector('div.upcoming').appendChild(calender);
+
+    }); 

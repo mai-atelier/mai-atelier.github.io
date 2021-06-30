@@ -1,5 +1,5 @@
 const cityid = "5607916"
-const apiURL = `https://api.openweathermap.org/data/2.5/weather?${cityid}&appid=8f806e2b6239d7e309c5ca0798079e25&units=imperial`
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=8f806e2b6239d7e309c5ca0798079e25&units=imperial"
 
 fetch(apiURL)
 .then((response)=>response.json())
@@ -12,7 +12,7 @@ fetch(apiURL)
 
 });
 
-const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?${cityid}&appid=8f806e2b6239d7e309c5ca0798079e25&units=imperial`
+const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=8f806e2b6239d7e309c5ca0798079e25&units=imperial"
 fetch(forecastURL)
 .then((response)=>response.json())
 .then((jsObject)=>{ //console.log(jsObject);
@@ -70,3 +70,27 @@ return factor = 'N/A';
 
 }
 
+/*upcoming events*/
+eventURL = "https://byui-cit230.github.io/weather/data/towndata.json"
+fetch(eventURL)
+.then((response)=>response.json())
+.then((jsonObject)=>{console.log()
+    
+const towns = jsonObject.towns[0];
+
+            let calender = document.createElement('section');
+            let event1 = document.createElement('div');
+            let item1 = document.createElement('p');
+            let event2 = document.createElement('div');
+            let item2 = document.createElement('p');
+            event1.appendChild(item1);
+            event2.appendChild(item2);
+
+            event1.className = 'event1';
+            event2.className = 'event2';
+            item1.textContent = towns.events[1];
+            item2.textContent = towns.events[2];
+            calender.append(event1, event2);
+            document.querySelector('div.upcoming').appendChild(calender);
+
+    }); 
