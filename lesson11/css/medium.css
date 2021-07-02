@@ -73,22 +73,23 @@ main {
     main h3 {
         padding: 1em 0;
     }
-
-
     
     .card {
         display: flex;
         align-items: center;
+    }
+
+    .item {
         margin: 2em;
     }
 
-        .card:nth-child(odd){
+        .item:nth-child(odd){
             border-radius: 0px 20px 20px 0px;
         }
 
-        .card:nth-child(even){
-            flex-direction: row-reverse;
+        .item:nth-child(even){
             border-radius: 20px 0px 0px 20px;
+            flex-direction: row-reverse;
         }
 
         .cartegory {
@@ -183,6 +184,17 @@ main {
     .forecast li {
         font-size: 1em;
     }
+
+    .upcoming {
+        border-left: solid 1px #abcaca;
+        padding: 2em 0;
+    }
+
+        .newevents {
+        margin: 1em;
+        padding-left: 1em;
+        }
+
 
     .contact-box{
         display: grid;

@@ -10,7 +10,8 @@ fetch (requestURL)
     const towns = jsonObject['towns'];
     for (let i = 0; i<towns.length; i++){
         if (i%2 == 0 && i!=4){
-    
+
+    let item = document.createElement('div');
     let townURL = document.createElement('a');
     let card = document.createElement('div');
     let div = document.createElement('div');
@@ -34,12 +35,14 @@ fetch (requestURL)
    div.append(name, statics);
    card.appendChild(div);
    townURL.appendChild(card);
-   document.querySelector('div.plate').appendChild(townURL);
+   item.appendChild(townURL);
+   document.querySelector('div.plate').appendChild(item);
    h2.className = 'left';
    p.className = 'left';
    card.className = 'card';
    statics.className = 'statics';
    div.className = 'town';
+   item.className = "item";
             
             if (i==6){
                 let preston = "preston-10.html"

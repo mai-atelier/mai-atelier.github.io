@@ -52,6 +52,7 @@ footer {
 
 main {
     background: #ffffff;
+    padding-bottom: 2em;
 }
 
 picture img[data-src]{
@@ -142,18 +143,18 @@ picture img{
     .plate a {
         text-decoration: none;
     }
-    .card:nth-child(2){
+    .item:nth-child(2){
 
         grid-row: 3/4;
     }
-    .card:first-child{
+    .item:first-child{
         grid-row: 2/3;
     }
-    .card:last-child {
+    .item:last-child {
         grid-row: 1/2;
     }
 
-    .card {
+    .item {
         display: block;
         border: solid 1px rgba(62,62,62, 0.25);
         background: rgba(255,255,255,0.6);
@@ -325,23 +326,22 @@ nav ul li.active {
         color: #3e3e3e;
     }
 
-.fivedays { 
-    background:
-    radial-gradient(at top left, #bbd4d4, transparent),
-    radial-gradient(at top right, #A7D3F2, transparent);
-    padding: 2%;
-    margin-bottom: 6em;
+.dailyweather { 
+    background: rgba(255,255,255,0.12);
+    padding: 1.75em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
-    .dailyweather  {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background: rgba(255,255,255,0.25);
-        box-shadow: 0 2px 8px 0 rgba( 187,212,212,0.8 );
-        border-radius:  20px;
-        margin: 0 .75em;
+    .fivedays {
+    background:
+    radial-gradient(at top left, #bbd4d4, transparent),
+    radial-gradient(at top right, #A7D3F2, transparent);
+    box-shadow: 0 2px 8px 0 rgba( 187,212,212,0.8 );
+    border-radius:  10px;
+    margin-bottom: 6em;
     }
     
 
@@ -351,11 +351,10 @@ nav ul li.active {
         text-align: center;
         color:#3e3e3e;
         margin: 0 auto;
-        padding: 0.75em;
     }
 
     .forecast img{
-        width: 100px;
+        width: 70px;
         display: block;
 
     }
@@ -364,29 +363,38 @@ nav ul li.active {
         padding-bottom: 2em;
     }
 
-.news p {
-    text-align: left;
-    padding:0 2em;
-}
+    .news p {
+        text-align: left;
+        padding:0 2em;
+    }
 
- .cta-2 {
-     display: flex;
-     justify-content: flex-end;
-    font-family: "Work Sans", Karla, sans-serif;
-    color:#3e3e3e;
-    margin: 1em;
- }   
+    .cta-2 {
+        display: flex;
+        justify-content: flex-end;
+        font-family: "Work Sans", Karla, sans-serif;
+        color:#3e3e3e;
+        margin: 1em;
+    }   
 
- .cta-2 a{
-    border-radius: 50px;
-    background: #ffdf33;
-    padding: 0.75em 1.75em;
-    margin-right: 2em;
- }
+    .cta-2 a{
+        border-radius: 50px;
+        background: #ffdf33;
+        padding: 0.75em 1.75em;
+        margin-right: 2em;
+    }
 
-.cta-2 a:hover{
-    background: #ffd700;
-}
+    .cta-2 a:hover{
+        background: #ffd700;
+    }
+
+    .newevents {
+        display: block;
+    }
+
+    .upcoming {
+        padding:0 2%;
+        margin: auto 0;
+    }
 
 #user, .link {
     padding: 0 0.25em;

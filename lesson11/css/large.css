@@ -29,7 +29,7 @@
     padding: 2em;
       }
 
-    .card {
+    .item {
         display: block;
         border-radius: 0px;
         min-height: 310px;
@@ -37,29 +37,33 @@
         width: 100%;
     }
 
-    .card:first-child{
+    .item:first-child{
         grid-row: 1/1;
         grid-column: 2/3;
         border-radius: 0px;
     }
 
-    .card:nth-child(even){
+    .item:nth-child(even){
         grid-row: 1/1;
         grid-column: 3/4;
         border-radius: 0px;
        
     }
 
-    .card:last-child{
+    .item:last-child{
         grid-row: 1/1;
         grid-column: 1/2;
         border-radius: 0px;
     }
 
-    .card:hover{
+    .item:hover{
         box-shadow: 0 2px 8px 0 rgba(62,62,62, 0.18);
     }
 
+    .card {
+        display: block;
+    }
+    
     .tag {
         padding: .75em 1em;
     }

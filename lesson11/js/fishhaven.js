@@ -39,7 +39,7 @@ fetch(forecastURL)
         ft.textContent = `${element.main.temp.toFixed(0)}°`;  
          
         //console.log(temp);
-        const imagesrc = 'https://openweathermap.org/img/w/'+element.weather[0].icon + '.png'; 
+        const imagesrc = 'https://openweathermap.org/img/wn/'+element.weather[0].icon + '.png'; 
         const desc = element.weather[0].description; 
         let icon = document.createElement('img');
         icon.setAttribute('src', imagesrc);  // focus on the setAttribute() method
@@ -78,19 +78,16 @@ fetch(eventURL)
     
 const towns = jsonObject.towns[2];
 
-            let calender = document.createElement('section');
-            let event1 = document.createElement('div');
-            let item1 = document.createElement('p');
-            let event2 = document.createElement('div');
-            let item2 = document.createElement('p');
-            event1.appendChild(item1);
-            event2.appendChild(item2);
+let calender = document.createElement('div');
+let h3 = document.createElement('h3');
+let item1 = document.createElement('p');
+let item2 = document.createElement('p');
+let item3 = document.createElement('p');
+h3.textContent = "Upcoming Events";
+item1.textContent = towns.events[0];
+item2.textContent = towns.events[1];
+item3.textContent = towns.events[2];
+calender.append(item1, item2, item3);
+document.querySelector('div.upcoming').append(h3, calender);
 
-            event1.className = 'event1';
-            event2.className = 'event2';
-            item1.textContent = towns.events[1];
-            item2.textContent = towns.events[2];
-            calender.append(event1, event2);
-            document.querySelector('div.upcoming').appendChild(calender);
-
-    }); 
+}); 
