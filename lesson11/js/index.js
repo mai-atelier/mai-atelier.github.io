@@ -45,7 +45,7 @@ fetch (requestURL)
    item.className = "item";
             
             if (i==6){
-                let preston = "preston-10.html"
+                let preston = "preston.html"
                 townURL.setAttribute('href', preston);
                 let pic1 = document.querySelector('.town1');
                 card.insertBefore(pic1, div);

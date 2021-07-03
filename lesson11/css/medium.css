@@ -74,23 +74,20 @@ main {
         padding: 1em 0;
     }
     
-    .card {
-        display: flex;
-        align-items: center;
-    }
-
     .item {
         margin: 2em;
     }
 
-        .item:nth-child(odd){
-            border-radius: 0px 20px 20px 0px;
-        }
+    .card {
+        display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
 
-        .item:nth-child(even){
-            border-radius: 20px 0px 0px 20px;
-            flex-direction: row-reverse;
-        }
+    .town2{
+        grid-column: 2/3;
+        grid-row: 1/-1;
+    }
+    
 
         .cartegory {
             display: flex;

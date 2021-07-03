@@ -144,7 +144,6 @@ picture img{
         text-decoration: none;
     }
     .item:nth-child(2){
-
         grid-row: 3/4;
     }
     .item:first-child{
