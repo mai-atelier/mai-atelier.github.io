@@ -78,17 +78,16 @@ fetch(eventURL)
     
 const towns = jsonObject.towns[0];
 
-            let calender = document.createElement('div');
-            let h3 = document.createElement('h3');
-            let item1 = document.createElement('p');
-            let item2 = document.createElement('p');
-            let item3 = document.createElement('p');
-            h3.textContent = "Upcoming Events";
-            item1.textContent = towns.events[0];
-            item2.textContent = towns.events[1];
-            item3.textContent = towns.events[2];
-            calender.className = "newevents";
-            calender.append(item1, item2, item3);
-            document.querySelector('div.upcoming').append( h3, calender);
+let calender = document.createElement('div');
+let h3 = document.createElement('h3');
+let item1 = document.createElement('p');
+let item2 = document.createElement('p');
+let item3 = document.createElement('p');
+h3.textContent = "Upcoming Events";
+item1.textContent = towns.events[0];
+item2.textContent = towns.events[1];
+item3.textContent = towns.events[2];
+calender.append(h3, item1, item2, item3);
+document.querySelector('div.upcoming').appendChild(calender);
 
     }); 

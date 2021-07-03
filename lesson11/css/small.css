@@ -276,12 +276,7 @@ nav ul li.active {
     padding: 0.75em;
 }
 
-.summary-box {
-    display: flex;
-    justify-content: space-evenly;
-    align-items:center;
-    margin-bottom: .75em;
-}
+
 
 .overlay h3{
     font-family:Poppins, Verdana, sans-serif;
@@ -289,8 +284,8 @@ nav ul li.active {
     margin: 0;
 }
 
-.content {
-    margin: 1em;
+.summary-box {
+    margin: 0 1em;
 }
 
     .content p{
@@ -301,7 +296,7 @@ nav ul li.active {
 
     .temprature {
         color: #3e3e3e;
-        font-size: 48px;
+        font-size: 24px;
     }
 
     .weather {
@@ -312,7 +307,7 @@ nav ul li.active {
 
     .condition {
     list-style: none;
-    padding: 0;
+    padding: .75em 0;
     margin: 0;
     }
     
@@ -329,9 +324,6 @@ nav ul li.active {
 .dailyweather { 
     background: rgba(255,255,255,0.12);
     padding: 1.75em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 
@@ -346,7 +338,9 @@ nav ul li.active {
     
 
     .forecast {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-family: "Work Sans", Karla, sans-serif;
         text-align: center;
         color:#3e3e3e;
@@ -355,18 +349,26 @@ nav ul li.active {
 
     .forecast img{
         width: 70px;
-        display: block;
-
     }
 
     .news {
-        padding-bottom: 2em;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 3em 0;
     }
 
-    .news p {
-        text-align: left;
-        padding:0 2em;
+    .author {
+        font-size: 0.8em;
+        padding: 0 1.6em;
     }
+
+    .article {
+        text-align: left;
+        margin: 2em 0;
+        padding: 0 2%;
+    }
+
 
     .cta-2 {
         display: flex;
@@ -389,13 +391,14 @@ nav ul li.active {
 
     .newevents {
         display: block;
-        padding: 0 1em;
     }
 
     .newevents h3 {
         margin: 0;
     }
     .upcoming {
+        display: flex;
+        align-items: center;
         padding:0 2%;
         margin: auto 0;
     }

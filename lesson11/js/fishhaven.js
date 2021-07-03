@@ -87,7 +87,7 @@ h3.textContent = "Upcoming Events";
 item1.textContent = towns.events[0];
 item2.textContent = towns.events[1];
 item3.textContent = towns.events[2];
-calender.append(item1, item2, item3);
-document.querySelector('div.upcoming').append(h3, calender);
+calender.append(h3, item1, item2, item3);
+document.querySelector('div.upcoming').appendChild(calender);
 
 }); 
