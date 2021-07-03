@@ -23,7 +23,6 @@ fetch (requestURL)
    let p2 = document.createElement('p');
    let p3 = document.createElement('p');
    
-   
    h2.textContent = towns[i].name;
    p.textContent = towns[i].motto;
    p1.textContent = 'Year Found: ' +towns[i].yearFounded;
@@ -69,4 +68,20 @@ fetch (requestURL)
     }
 
 }
+
+let ep1 = document.createElement('p');
+let ep2 = document.createElement('p');
+let ep3 = document.createElement('p');
+
+ep1.className = 'center';
+ep2.className = 'center';
+ep3.className = 'center';
+
+ep1.textContent = towns[6].events[0];
+ep2.textContent = towns[0].events[2];
+ep3.textContent = towns[2].events[2];
+
+document.querySelector('div#event1').appendChild(ep1);
+document.querySelector('div#event2').appendChild(ep2);
+document.querySelector('div#event3').appendChild(ep3);
 });

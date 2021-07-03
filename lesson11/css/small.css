@@ -201,6 +201,13 @@ picture img{
             display: block;
            margin: 1em auto;
         }
+        
+        .category {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding: .5em;
+        }
 
         .tag {
     font-family: "Work Sans", Karla, sans-serif;
