@@ -131,6 +131,12 @@ picture img{
     padding-bottom: 2em;
 }
 
+.weatherstory {
+    background: radial-gradient(at top left, #bbd4d4, transparent),
+                radial-gradient(at top right, #A7D3F2, transparent);
+                box-shadow: 0 2px 8px 0 rgba( 187,212,212,0.38 );
+}
+
 .currentweather {
     margin: 0 1em;
     padding: 1em;
