@@ -128,12 +128,23 @@ picture img{
 
 
 .hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding-bottom: 2em;
 }
 
+.currentweather {
+    margin: 0 1em;
+    padding: 1em;
+}
+
+.weathericon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weathericon img{
+    width: 70px;
+}
     .plate {
         grid-template-rows: repeat(3, 1fr);
         grid-gap: 1em;

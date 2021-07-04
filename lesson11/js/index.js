@@ -77,11 +77,63 @@ ep1.className = 'center';
 ep2.className = 'center';
 ep3.className = 'center';
 
-ep1.textContent = towns[6].events[0];
+ep1.textContent = towns[6].events[1];
 ep2.textContent = towns[0].events[2];
 ep3.textContent = towns[2].events[2];
 
 document.querySelector('div#event1').appendChild(ep1);
 document.querySelector('div#event2').appendChild(ep2);
 document.querySelector('div#event3').appendChild(ep3);
+});
+
+/* weahter story */
+const prestonid = "5604473";
+const prestonURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=8f806e2b6239d7e309c5ca0798079e25&units=imperial"
+
+fetch(prestonURL)
+.then((response)=>response.json())
+.then((jsObject)=>{ 
+    document.getElementById('current-p').textContent = jsObject.main.temp.toFixed(1);
+    document.getElementById('condition-p').textContent = jsObject.weather[0].description;
+
+        let imagesrc = 'https://openweathermap.org/img/wn/'+jsObject.weather[0].icon + '.png'; 
+        let desc = jsObject.weather[0].description; 
+        let icon = document.createElement('img');
+        icon.setAttribute('src', imagesrc);  // focus on the setAttribute() method
+        icon.setAttribute('alt', desc);
+        document.getElementById('wi-p').appendChild(icon); 
+    });
+
+const sodaspringsid = "5607916"
+const sodaspringsURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=8f806e2b6239d7e309c5ca0798079e25&units=imperial"
+
+fetch(sodaspringsURL)
+.then((response)=>response.json())
+.then((jsObject)=>{ 
+    document.getElementById('current-s').textContent = jsObject.main.temp.toFixed(1);
+    document.getElementById('condition-s').textContent = jsObject.weather[0].description;
+
+        let imagesrc = 'https://openweathermap.org/img/wn/'+jsObject.weather[0].icon + '.png'; 
+        let desc = jsObject.weather[0].description; 
+        let icon = document.createElement('img');
+        icon.setAttribute('src', imagesrc);  // focus on the setAttribute() method
+        icon.setAttribute('alt', desc);
+        document.getElementById('wi-s').appendChild(icon); 
+});
+
+const fishhavenid = "5585010"
+const fishhavenURL = "https://api.openweathermap.org/data/2.5/weather?id=5585010&appid=8f806e2b6239d7e309c5ca0798079e25&units=imperial"
+
+fetch(fishhavenURL)
+.then((response)=>response.json())
+.then((jsObject)=>{ 
+    document.getElementById('current-f').textContent = jsObject.main.temp.toFixed(1);
+    document.getElementById('condition-f').textContent = jsObject.weather[0].description;
+
+        let imagesrc = 'https://openweathermap.org/img/wn/'+jsObject.weather[0].icon + '.png'; 
+        let desc = jsObject.weather[0].description; 
+        let icon = document.createElement('img');
+        icon.setAttribute('src', imagesrc);  // focus on the setAttribute() method
+        icon.setAttribute('alt', desc);
+        document.getElementById('wi-f').appendChild(icon); 
 });
